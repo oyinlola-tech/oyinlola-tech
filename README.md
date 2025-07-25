@@ -82,6 +82,15 @@ Here are some of the tools and technologies I work with:
 
 ---
 
+## 🎓 Certifications
+
+Beyond just writing code, I’ve also completed professional certifications that sharpen both my tech and soft skills:
+
+- 💻 Front-End Development (ALX)  
+- 🤖 AI Career Essentials (ALX)  
+- 🧑‍💼 Virtual Assistant Certification – mastering remote productivity, organization, and client communication
+---
+
 ## 💬 Let's Connect!
 
 I'm always open to conversations — whether it’s about tech, startups, jobs, or simply vibing over ideas.
