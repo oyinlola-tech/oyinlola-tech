@@ -10,7 +10,7 @@ Currently based in *Okitipupa, Ondo State, Nigeria 🇳🇬*, I spend my time le
 
 ## 🛤 My Journey So Far
 
-I began my tech journey after leaving *Delta State University*. Instead of giving up, I decided to bet on myself — learning from online resources, taking certification programs, and building real ideas like ZudoMart from scratch.
+I began my tech journey after leaving *Miva University*. Instead of giving up, I decided to bet on myself — learning from online resources, taking certification programs, and building real ideas like ZudoMart from scratch.
 
 💻 From writing my first line of HTML  
 🔐 To understanding how networks work in cybersecurity  
