@@ -14,7 +14,7 @@ Based in **Okitipupa, Ondo State, Nigeria 🇳🇬**, I'm passionate about learn
 Looking for a detail-oriented Virtual Assistant, front-end developer, or junior cybersecurity trainee with leadership potential and strong soft skills.
 
 - 💼 **Investors & Collaborators**  
-Curious about **ZudoMart** — a bold African tech startup idea with a investor-ready pitch deck.
+Curious about **ZudoMart** — a bold African tech startup idea with an investor-ready pitch deck.
 
 - 👨🏽‍💻 **Tech Enthusiasts & Builders**  
 Want clean, beginner-friendly front-end code, or following a self-taught dev and startup journey from scratch? You’ll enjoy the build logs, tools, and learning path here.
