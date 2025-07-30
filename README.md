@@ -69,10 +69,37 @@ Imagine one platform where:
 
 ---
 
-## 🔥 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=oyinlola-tech&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=oyinlola-tech&layout=compact&theme=radical)
+## 🏆 GitHub Trophies
+
+[![Trophies](https://github-profile-trophy.vercel.app/?username=oyinlola-tech&theme=radical&no-bg=true&no-frame=true&row=2&column=4)](https://github.com/oyinlola-tech)
+
+---
+
+## 🔥 GitHub Streaks
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=oyinlola-tech&theme=radical&hide_border=true&border_radius=6)](https://git.io/streak-stats)
+
+---
+
+## 📊 GitHub Stats & Top Languages
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=oyinlola-tech&show_icons=true&theme=radical&hide_border=true&border_radius=6)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=oyinlola-tech&layout=compact&theme=radical&hide_border=true&border_radius=6)
+
+---
+
+## 👁‍🗨 Profile Visitors
+
+![Visitor Count](https://komarev.com/ghpvc/?username=oyinlola-tech&color=blueviolet&style=flat-square)
+
+---
+
+## 💬 Dev Quote of the Day
+
+> "Programs must be written for people to read, and only incidentally for machines to execute." – Harold Abelson
+
+---
 
 ---
 
