@@ -78,8 +78,6 @@ Imagine one platform where:
 
 ## 🔥 GitHub Streaks
 
-## 🔥 GitHub Streaks
-
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=oyinlola-tech&theme=radical&hide_border=true&border_radius=6)](https://git.io/streak-stats)
 ---
 
