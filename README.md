@@ -19,7 +19,7 @@
 </div>
 
 ---
-
+<div align="center">
 ## 🧭 Quick Overview
 
 | 🎯 *Category* | 💬 *Description* |
@@ -30,7 +30,7 @@
 | 💼 *Open To* | Tech Roles • Collaborations • Partnerships |
 
 ---
-
+<div align="center">
 ## 🚀 Building: *ZudoMart*
 
 *ZudoMart* is a next-generation African digital hub — merging freelancing, shopping, and content creation.
@@ -49,7 +49,7 @@
 💼 *Status:* Open for investors and collaborators  
 
 ---
-
+<div align="center">
 ## 🧠 Currently Learning
 
 - 🌐 Front-End Web Development (HTML, CSS, JavaScript)  
