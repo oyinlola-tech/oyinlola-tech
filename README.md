@@ -1,28 +1,35 @@
+<!-- Animated Header Section -->
 <div align="center">
 
-# 👋🏽 Hey there, I'm *Oluwayemi Oyinlola Michael*
+# 👋🏽 Hey there, I'm *Oluwayemi Oyinlola Michael* <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=800&color=00BFFF&center=true&vCenter=true&width=600&lines=Front-End+Developer;Cybersecurity+Specialist+in+Training;Founder+of+ZudoMart;Building+Africa's+Next+Digital+Revolution)](https://git.io/typing-svg)
 
 > 🧠 “Tech is the modern-day magic. I’m just here learning the spells.”
 
-I’m a self-taught *Front-End Developer, an aspiring **Cybersecurity Specialist, and the founder of **ZudoMart* — a bold vision to empower *African entrepreneurs and creators* through a unified digital platform combining *freelancing, marketplace, social content, and livestreaming*.
+</div>
+
+---
+
+<div align="center">
 
 🌍 Based in *Okitipupa, Ondo State, Nigeria 🇳🇬*  
-💡 Passionate about learning, building, solving problems, and creating digital value.
-
----
-
-### 🧭 Quick Overview
-
-| 🎯 Category | 💬 Description |
-|--------------|----------------|
-| 👨🏽‍💻 *Profession* | Front-End Developer • Cybersecurity Trainee |
-| 🚀 *Current Project* | Building *[ZudoMart](https://zudomart.vercel.app)* |
-| 🌱 *Focus* | Learning cybersecurity tools, building creative web solutions |
-| 💼 *Open To* | Tech roles, collaborations, partnerships, and startup mentorship |
-
----
+💡 Passionate about learning, building, solving problems, and creating digital value.  
 
 </div>
+
+---
+
+## 🧭 Quick Overview
+
+| 🎯 *Category* | 💬 *Description* |
+|-----------------|--------------------|
+| 👨🏽‍💻 *Profession* | Front-End Developer • Cybersecurity Trainee |
+| 🚀 *Current Project* | [ZudoMart](https://zudomart.vercel.app) — African Tech Ecosystem |
+| 🌱 *Focus* | Web Development • Cybersecurity • Startups |
+| 💼 *Open To* | Tech Roles • Collaborations • Partnerships |
+
+---
 
 ## 🚀 Building: *ZudoMart*
 
@@ -49,7 +56,7 @@ I’m a self-taught *Front-End Developer, an aspiring **Cybersecurity Specialist
 - 🔐 Cybersecurity — Networking, System Security, Threat Detection  
 - 🐍 Python Programming  
 - 🛠 Project Management & Scalable Design  
-- 🤝 Soft Skills — Leadership, Teamwork, Time Management  
+- 🤝 Leadership, Communication, Time Management  
 
 ---
 
@@ -86,12 +93,12 @@ I’m a self-taught *Front-End Developer, an aspiring **Cybersecurity Specialist
 
 ## 🎯 2025 Goals
 
-- ✅ Complete practical cybersecurity training  
+- ✅ Complete hands-on cybersecurity training  
 - 🚀 Launch ZudoMart MVP  
 - 💼 Secure a tech role or internship  
-- 🗣 Pitch ZudoMart to at least 5 early-stage investors  
-- ✍ Start blogging or documenting my learning journey  
-- 🤝 Build a growing network of African tech creators  
+- 🗣 Pitch ZudoMart to at least 5 investors  
+- ✍ Start documenting and blogging my journey  
+- 🤝 Build a strong network of African tech creators  
 
 ---
 
@@ -117,9 +124,9 @@ I’m a self-taught *Front-End Developer, an aspiring **Cybersecurity Specialist
 
 ## 🎮 Fun Facts
 
-- 💥 Call of Duty keeps me sharp — always up for a challenge  
-- 🌍 I believe Africa is the next big wave in global innovation  
-- 🧩 Every bug or error is just another puzzle waiting to be solved  
+- 💥 Call of Duty keeps me sharp — challenge accepted  
+- 🌍 I believe Africa is the next big tech frontier  
+- 🧩 Every bug is just another puzzle waiting to be solved  
 
 ---
 
@@ -127,8 +134,8 @@ I’m a self-taught *Front-End Developer, an aspiring **Cybersecurity Specialist
 
 > 🗣 “You don’t need permission to build the future — only vision, consistency, and belief.”
 
-*Thanks for stopping by — let’s grow and build something legendary together. 🌱*
-
 ![Visitor Count](https://komarev.com/ghpvc/?username=oyinlola-tech&color=blueviolet&style=for-the-badge)
+
+![Animated Line](https://capsule-render.vercel.app/api?type=waving&height=100&color=0:001F3F,100:007BFF&section=footer)
 
 </div>
