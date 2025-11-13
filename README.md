@@ -1,9 +1,10 @@
-<!-- Animated Header Section -->
+<!-- 🌌 Animated, Aligned, and Polished GitHub Profile README for Oluwayemi Oyinlola Michael -->
+
 <div align="center">
 
 # 👋🏽 Hey there, I'm *Oluwayemi Oyinlola Michael* <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=800&color=00BFFF&center=true&vCenter=true&width=600&lines=Front-End+Developer;Cybersecurity+Specialist+in+Training;Founder+of+ZudoMart;Building+Africa's+Next+Digital+Revolution)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=800&color=00BFFF&center=true&vCenter=true&width=600&lines=Front-End+Developer;Cybersecurity;Certified+Virtual+Assistant;Founder+of+ZudoMart;Building+Africa's+Next+Digital+Revolution)](https://git.io/typing-svg)
 
 > 🧠 “Tech is the modern-day magic. I’m just here learning the spells.”
 
@@ -15,49 +16,49 @@
 
 🌍 Based in *Okitipupa, Ondo State, Nigeria 🇳🇬*  
 💡 Passionate about learning, building, solving problems, and creating digital value.  
+🤝 Certified *Virtual Assistant* skilled in productivity, communication, and client support.
 
 </div>
 
 ---
-
-## 🧭 Quick Overview
 <div align="center">
-| 🎯 *Category* | 💬 *Description* |
+<h3> Quick Overview</h3>
+
+|  *Category* |  *Description* |
 |-----------------|--------------------|
-| 👨🏽‍💻 *Profession* | Front-End Developer • Cybersecurity Trainee |
-| 🚀 *Current Project* | [ZudoMart](https://zudomart.vercel.app) — African Tech Ecosystem |
-| 🌱 *Focus* | Web Development • Cybersecurity • Startups |
-| 💼 *Open To* | Tech Roles • Collaborations • Partnerships |
+| 👨🏽‍💻 *Profession* | Front-End Developer • Cybersecurity Trainee • Virtual Assistant |
+| 🚀 *Current Project* | ZudoMart - African Tech Ecosystem |
+| 🌱 *Focus* | Web Development • Cybersecurity • Virtual Assistance • Startups |
+| 💼 *Open To* | Tech Roles • VA Projects • Collaborations • Partnerships |
 </div>
----
-<div align="center">
+
 ## 🚀 Building: *ZudoMart*
 
-*ZudoMart* is a next-generation African digital hub — merging freelancing, shopping, and content creation.
+*ZudoMart* is a next-generation African digital hub - merging *freelancing, social content, shopping, and streaming*.
 
 *Imagine one platform where:*
 - 🎥 Creators share and monetize content  
-- 🛒 Users buy and sell with ease  
-- 🧑‍💻 Freelancers offer gigs  
-- 🎮 Gamers stream live  
+- 🛒 Users buy and sell seamlessly  
+- 🧑‍💻 Freelancers showcase and sell skills  
+- 🎮 Gamers connect and stream live  
 
 > 💡 Built by Africans, for Africans.
 
-🔗 *Live Site:* [zudomart.vercel.app](https://zudomart.vercel.app)  
-📊 *Pitch Deck:* [View on Google Slides](https://docs.google.com/presentation/d/1VwHvEXf6CsbHQ5_cZShPq8BC9Bzt8wLzLz9iJbVGpng/edit?usp=drivesdk)  
-🧱 *MVP:* In progress  
+📊 *Pitch Deck:* [View on Google Slides](https://docs.google.com/presentation/d/10qkSdBBf6FSYqc_3om_-oAHa8KBHoiB-GlVYj6z4oKY/edit?usp=drivesdk)  
+🧱 *MVP:* In development  
 💼 *Status:* Open for investors and collaborators  
-</div>
+
 ---
-<div align="center">
+
 ## 🧠 Currently Learning
 
 - 🌐 Front-End Web Development (HTML, CSS, JavaScript)  
 - 🔐 Cybersecurity — Networking, System Security, Threat Detection  
+- 🧑‍💼 Virtual Assistance — Remote Productivity, Scheduling, Client Support  
 - 🐍 Python Programming  
 - 🛠 Project Management & Scalable Design  
-- 🤝 Leadership, Communication, Time Management  
-</div>
+- 🤝 Soft Skills — Leadership, Communication, Time Management  
+
 ---
 
 ## 🧰 Tech Toolbox
@@ -71,6 +72,9 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Google Workspace](https://img.shields.io/badge/Google_Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
 
 </div>
 
@@ -93,12 +97,12 @@
 
 ## 🎯 2025 Goals
 
-- ✅ Complete hands-on cybersecurity training  
+- ✅ Master key cybersecurity tools  
 - 🚀 Launch ZudoMart MVP  
-- 💼 Secure a tech role or internship  
-- 🗣 Pitch ZudoMart to at least 5 investors  
-- ✍ Start documenting and blogging my journey  
-- 🤝 Build a strong network of African tech creators  
+- 💼 Land a remote Virtual Assistant or Tech Role  
+- 🗣 Pitch ZudoMart to early-stage investors  
+- ✍ Start writing and documenting my journey  
+- 🤝 Build a growing network of African tech creatives  
 
 ---
 
@@ -116,7 +120,7 @@
 
 📧 *[oyinlola.tech@icloud.com](mailto:oyinlola.tech@icloud.com)*  
 📱 *WhatsApp:* +234 913 351 9489  
-💼 *LinkedIn:* (Coming soon)  
+💼 *[LinkedIn](https://www.linkedin.com/in/oluwayemioyinlola)*   
 
 </div>
 
@@ -126,7 +130,7 @@
 
 - 💥 Call of Duty keeps me sharp — challenge accepted  
 - 🌍 I believe Africa is the next big tech frontier  
-- 🧩 Every bug is just another puzzle waiting to be solved  
+- 🧩 Every problem is just a puzzle waiting to be solved  
 
 ---
 
@@ -136,6 +140,6 @@
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=oyinlola-tech&color=blueviolet&style=for-the-badge)
 
-![Animated Line](https://capsule-render.vercel.app/api?type=waving&height=100&color=0:001F3F,100:007BFF&section=footer)
+![Footer Animation](https://capsule-render.vercel.app/api?type=waving&height=100&color=0:001F3F,100:007BFF&section=footer)
 
 </div>
