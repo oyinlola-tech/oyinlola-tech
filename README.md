@@ -19,16 +19,16 @@
 </div>
 
 ---
-<div align="center">
-## 🧭 Quick Overview
 
+## 🧭 Quick Overview
+<div align="center">
 | 🎯 *Category* | 💬 *Description* |
 |-----------------|--------------------|
 | 👨🏽‍💻 *Profession* | Front-End Developer • Cybersecurity Trainee |
 | 🚀 *Current Project* | [ZudoMart](https://zudomart.vercel.app) — African Tech Ecosystem |
 | 🌱 *Focus* | Web Development • Cybersecurity • Startups |
 | 💼 *Open To* | Tech Roles • Collaborations • Partnerships |
-
+</div>
 ---
 <div align="center">
 ## 🚀 Building: *ZudoMart*
@@ -47,7 +47,7 @@
 📊 *Pitch Deck:* [View on Google Slides](https://docs.google.com/presentation/d/1VwHvEXf6CsbHQ5_cZShPq8BC9Bzt8wLzLz9iJbVGpng/edit?usp=drivesdk)  
 🧱 *MVP:* In progress  
 💼 *Status:* Open for investors and collaborators  
-
+</div>
 ---
 <div align="center">
 ## 🧠 Currently Learning
@@ -57,7 +57,7 @@
 - 🐍 Python Programming  
 - 🛠 Project Management & Scalable Design  
 - 🤝 Leadership, Communication, Time Management  
-
+</div>
 ---
 
 ## 🧰 Tech Toolbox
