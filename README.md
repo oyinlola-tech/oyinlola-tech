@@ -48,7 +48,7 @@
 🧱 *MVP:* In development  
 💼 *Status:* Open for investors and collaborators  
 
----
+--
 
 ## 🧠 Currently Learning
 
