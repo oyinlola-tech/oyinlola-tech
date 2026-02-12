@@ -1,157 +1,166 @@
-<!-- Advanced GitHub Profile README for Oluwayemi Oyinlola Michael -->
+<!-- Elite GitHub Profile README for Oluwayemi Oyinlola Michael -->
 
 <div align="center">
 
 <h1>Oluwayemi Oyinlola Michael</h1>
 
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250" />
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="260" />
 
 <h3>Software Engineer • Cybersecurity Practitioner • Virtual Assistant</h3>
 
 <p>
-I build reliable digital products and study how to make them secure, scalable, and useful in the real world.
+I design and build usable products, then work to make them secure, reliable, and ready for scale.
+</p>
+
+<p>
+<a href="https://oyinlola.site">Portfolio Website</a>
 </p>
 
 </div>
 
 ---
 
-## Professional Summary
+## Profile
 
-I am a software engineer from Okitipupa, Ondo State, Nigeria, with practical experience in front end development, startup product design, and remote operational support.
+I am a Nigerian software engineer with experience in front end development, product architecture, and startup execution.
 
-My journey into technology is driven by ownership. I like understanding how systems work from the interface users touch down to the infrastructure and security decisions that keep those systems dependable.
+My work sits at the intersection of engineering, security awareness, and business reality. I care about how software behaves in production, how users experience it, and how teams can maintain and grow it over time.
 
-Beyond writing code, I think deeply about product direction, user trust, performance, and long term growth. I am currently advancing my cybersecurity knowledge to ensure the platforms I help build are resilient and safe.
+Alongside development, I bring structured operational support from my background as a trained virtual assistant. This allows me to contribute beyond code through documentation, coordination, and communication.
 
-I am comfortable working independently, learning quickly, and contributing meaningfully to distributed teams.
-
----
-
-## Core Competencies
-
-### Engineering
-* Building responsive and accessible interfaces  
-* Translating ideas into MVPs  
-* Working with APIs and connected systems  
-* Debugging and improving existing applications  
-* Structuring projects for maintainability  
-
-### Cybersecurity
-* Networking foundations  
-* Secure system thinking  
-* Threat awareness  
-* Basic risk evaluation  
-* Understanding authentication flows  
-
-### Operations
-* Research and documentation  
-* Client and stakeholder communication  
-* Process support  
-* Organization and execution  
+I am currently expanding my practical cybersecurity capability while continuing to ship ambitious platforms.
 
 ---
 
-## Products In Progress
+## What Defines My Work
 
-### Zudomart
-
-Zudomart is a commerce and creator infrastructure platform designed to empower African entrepreneurs and digital businesses.
-
-The platform aims to unify:
-
-* buying and selling  
-* freelance services  
-* video driven discovery  
-* live interaction  
-* integrated communication  
-* merchant management tools  
-
-I lead product direction, feature planning, user experience decisions, and coordination with technical collaborators.
-
-The mission is to reduce friction for African online businesses and create a foundation for scale.
-
-Pitch deck:  
-https://docs.google.com/presentation/d/10qkSdBBf6FSYqc_3om_-oAHa8KBHoiB-GlVYj6z4oKY/edit?usp=drivesdk
-
-Status: active development and partnership discussions.
+* Turning raw ideas into working systems  
+* Designing MVPs with real market relevance  
+* Thinking about permissions, safety, and trust  
+* Learning fast and applying immediately  
+* Building in public through consistent projects  
 
 ---
 
-### Telente Logistic
+## Major Products and Experiments
 
-A logistics tracking application focused on clarity and operational control.
+### Zudomart  
+A large scale digital commerce and creator ecosystem built for African entrepreneurs.
 
-Key ideas:
+The platform brings together:
 
-* admin managed shipment updates  
-* automated notifications  
-* map based visibility  
-* simple and dependable workflows  
+* product marketplace  
+* service and gig economy  
+* short video discovery  
+* live streaming  
+* in app communication  
+* seller infrastructure including payments and management tools  
 
-This project is sharpening my understanding of data flow, permissions, and real life product reliability.
+I lead vision, product structure, and feature planning while collaborating with engineers and growth partners.
+
+The focus is usability first, then scale.
 
 ---
 
-## Technical Stack
+### Telente Logistic  
+A shipment tracking environment designed for operational clarity.
+
+Features include:
+
+* administrator controlled updates  
+* automated email communication  
+* transparent tracking flow  
+* map supported visualization  
+* simplified data management  
+
+This system strengthens my understanding of roles, reliability, and audit friendly design.
+
+---
+
+### Crypto Exchange Interface  
+A trading platform front end covering authentication, dashboards, peer to peer flows, KYC concepts, and wallet visibility.  
+Built to practice complex state management, financial UX, and secure interaction patterns.
+
+---
+
+### Scientific Calculator  
+A futuristic browser based calculator using advanced UI ideas and interactive elements.  
+Created to push my JavaScript logic, structure, and user experience thinking.
+
+---
+
+### Hangman Game  
+A modern implementation of the classic game with custom interface controls and improved logic handling.  
+Focused on DOM control, event systems, and dynamic rendering.
+
+---
+
+### Portfolio Systems  
+Multiple iterations of personal portfolio platforms exploring layout, storytelling, performance, and recruiter focused presentation.
+
+---
+
+## Engineering Abilities
+
+### Front End Development
+* HTML  
+* CSS  
+* JavaScript  
+* Responsive design  
+* UI structuring  
+* Component thinking  
+
+### Programming Knowledge
+* Python foundations  
+* Application flow understanding  
+* API interaction awareness  
+
+### Cybersecurity Direction
+* Networking knowledge  
+* Authentication awareness  
+* Threat thinking  
+* Secure product mindset  
+
+### Professional Operations
+* Remote collaboration  
+* Documentation  
+* Research  
+* Administrative workflow  
+* Time and priority management  
+
+---
+
+## Technology Environment
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode" />
 </div>
 
-**Languages and Web:**  
-HTML, CSS, JavaScript
+---
 
-**Programming:**  
-Python at beginner to intermediate growth level
+## Builder Mentality
 
-**Version Control:**  
-Git and GitHub
-
-**Environment:**  
-VS Code and modern browser tooling
+I approach development with responsibility.  
+Features must work.  
+Interfaces must be clear.  
+Systems must be safe.  
+Products must move forward.
 
 ---
 
-## How I Work
+## Growth Path
 
-* I value clear structure and readable code  
-* I document decisions  
-* I prefer steady, consistent progress  
-* I am comfortable receiving feedback  
-* I focus on solutions, not noise  
+Right now my evolution is centered on three upgrades:
 
----
+* stronger engineering depth  
+* practical security capability  
+* shipping platforms that attract real users  
 
-## Career Development
-
-I have completed structured programs that strengthened both my technical and professional foundation.
-
-Certifications include:
-
-* Front End Development  
-* AI Career Essentials  
-* Virtual Assistance  
-
-Learning continues daily through building, reading, and experimenting.
+Every project in this profile supports that direction.
 
 ---
 
-## What I Am Building Toward
-
-My long term goal is to become a highly capable engineer who can design, secure, and scale products that serve millions of people.
-
-Current priorities:
-
-* shipping production ready systems  
-* deepening cybersecurity capability  
-* strengthening backend understanding  
-* collaborating with experienced engineers  
-* attracting partners and investors for Zudomart  
-
----
-
-## GitHub Performance
+## Metrics
 
 <div align="center">
 
@@ -163,15 +172,14 @@ Current priorities:
 
 ---
 
-## Professional Availability
+## Opportunities I Welcome
 
-I am open to:
-
-* software engineering opportunities  
-* cybersecurity growth roles  
-* product collaborations  
-* operational and virtual assistant engagements  
-* founder and investor conversations  
+* software engineering roles  
+* junior to mid cybersecurity pathways  
+* startup partnerships  
+* product collaboration  
+* operational support work  
+* investor conversations around Zudomart  
 
 ---
 
@@ -186,7 +194,7 @@ LinkedIn: https://www.linkedin.com/in/oluwayemioyinlola
 <div align="center">
 
 <p>
-Great products are built by people who care about the details.
+Serious results come from consistent execution.
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0f2027,100:2c5364&section=footer"/>
