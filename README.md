@@ -20,7 +20,7 @@
   I design and build usable products, then work to make them secure, reliable, and ready for scale.
 </p>
 
-<!-- Visitor counter + social badges (no emojis) -->
+<!-- Visitor counter + social badges  (no emojis) -->
 <p>
   <a href="https://oyinlola.site">
     <img src="https://img.shields.io/badge/Portfolio-oyinlola.site-2c3e50?style=flat&logo=googlechrome&logoColor=white" />
