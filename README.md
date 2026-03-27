@@ -1,5 +1,5 @@
 <!-- Enhanced GitHub Profile README for Oluwayemi Oyinlola Michael -->
-<!-- Free icons only –  no emojis used anywhere -->
+<!-- Free icons only – no emojis used anywhere -->
 
 <div align="center"> 
 
