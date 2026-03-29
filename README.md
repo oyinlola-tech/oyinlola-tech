@@ -15,7 +15,7 @@
   <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/briefcase.svg" width="24" height="24" style="vertical-align: middle;">  
   Virtual Assistant
 </h3>
-
+ 
 <p>
   I design and build usable products, then work to make them secure, reliable, and ready for scale.
 </p>
