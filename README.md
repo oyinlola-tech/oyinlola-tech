@@ -1,6 +1,5 @@
 <!-- Enhanced GitHub Profile README for Oluwayemi Oyinlola Michael -->
 <!-- Free icons only – no emojis used anywhere -->
-
 <div align="center"> 
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:0f2027,100:2c5364&text=Oluwayemi%20Oyinlola%20Michael&fontSize=40&fontColor=ffffff&stroke=00c8ff&strokeWidth=1" />
