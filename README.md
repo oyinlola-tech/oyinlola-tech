@@ -5,7 +5,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:0f2027,100:2c5364&text=Oluwayemi%20Oyinlola%20Michael&fontSize=40&fontColor=ffffff&stroke=00c8ff&strokeWidth=1" />
 
 <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="260" />
-
+ 
 <h3>
   <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/code.svg" width="24" height="24" style="vertical-align: middle;">  
   Software Engineer • 
