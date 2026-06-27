@@ -33,10 +33,10 @@ My engineering journey covers:
 - Secure software development
 - Building products from idea to implementation
 Currently, I am expanding my expertise in data engineering while continuing to build scalable software systems.
----
+
 # 🚀 Current Focus
 <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/target.svg" width="22"/>
-```text
+```
 🐍 Python Engineering
 📊 Data Engineering & Analytics
 ⚙ Backend Architecture
