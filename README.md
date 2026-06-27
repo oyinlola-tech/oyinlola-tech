@@ -1,316 +1,237 @@
-<!-- Enhanced GitHub Profile README for Oluwayemi Oyinlola Michael -->
-<!-- Free icons only – no emojis used anywhere -->
-<div align="center"> 
-
-<img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:0f2027,100:2c5364&text=Oluwayemi%20Oyinlola%20Michael&fontSize=40&fontColor=ffffff&stroke=00c8ff&strokeWidth=1" />
-
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="260" />
- 
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/code.svg" width="24" height="24" style="vertical-align: middle;">  
-  Software Engineer • 
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/shield.svg" width="24" height="24" style="vertical-align: middle;">  
-  Cybersecurity Practitioner • 
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/briefcase.svg" width="24" height="24" style="vertical-align: middle;">  
-  Virtual Assistant
-</h3>
- 
-<p>
-  I design and build usable products, then work to make them secure, reliable, and ready for scale.
-</p>
-
-<!-- Visitor counter + social badges  (no emojis) -->
-<p>
-  <a href="https://oyinlola.site">
-    <img src="https://img.shields.io/badge/Portfolio-oyinlola.site-2c3e50?style=flat&logo=googlechrome&logoColor=white" />
-  </a>
-  <a href="https://github.com/oyinlola-tech">
-    <img src="https://img.shields.io/badge/GitHub-oyinlola--tech-181717?style=flat&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/oluwayemioyinlola">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:oyinlola.tech@icloud.com">
-    <img src="https://img.shields.io/badge/Email-oyinlola.tech@icloud.com-D14836?style=flat&logo=gmail&logoColor=white" />
-  </a>
-  <a href="tel:+2349133519489">
-    <img src="https://img.shields.io/badge/Phone-+2349133519489-25D366?style=flat&logo=whatsapp&logoColor=white" />
-  </a>
-</p>
-
-<p>
-  <a href="https://api.visitorbadge.io/api/visitors?path=oyinlola-tech">
-    <img src="https://api.visitorbadge.io/api/visitors?path=oyinlola-tech&label=Visitors&countColor=%23263759&labelStyle=upper" />
-  </a>
-</p>
-
-</div>
-
----
-
-<!-- Section: Profile (with icon) -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/user.svg" width="28" height="28" style="vertical-align: middle;">  
-  Profile
-</h2>
-
-I am a Nigerian software engineer with experience in front‑end development, product architecture, and startup execution.
-
-My work sits at the intersection of engineering, security awareness, and business reality. I care about how software behaves in production, how users experience it, and how teams can maintain and grow it over time.
-
-Alongside development, I bring structured operational support from my background as a trained virtual assistant. This allows me to contribute beyond code through documentation, coordination, and communication.
-
-I am currently expanding my practical cybersecurity capability while continuing to ship ambitious platforms.
-
----
-
-<!-- Section: What Defines My Work (iconified bullet list) -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/star.svg" width="28" height="28" style="vertical-align: middle;">  
-  What Defines My Work
-</h2>
-
-<ul style="list-style: none; padding-left: 0;">
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check-circle.svg" width="18" height="18" style="vertical-align: middle;">  Turning raw ideas into working systems</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check-circle.svg" width="18" height="18" style="vertical-align: middle;">  Designing MVPs with real market relevance</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check-circle.svg" width="18" height="18" style="vertical-align: middle;">  Thinking about permissions, safety, and trust</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check-circle.svg" width="18" height="18" style="vertical-align: middle;">  Learning fast and applying immediately</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check-circle.svg" width="18" height="18" style="vertical-align: middle;">  Building in public through consistent projects</li>
-</ul>
-
----
-
-<!-- Section: Major Products and Experiments (icon per product) -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/package.svg" width="28" height="28" style="vertical-align: middle;">  
-  Major Products and Experiments
-</h2>
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/shopping-cart.svg" width="22" height="22" style="vertical-align: middle;">  
-  Zudomart
-</h3>
-A large‑scale digital commerce and creator ecosystem built for African entrepreneurs.
-
-The platform brings together:
-<ul>
-  <li>product marketplace</li>
-  <li>service and gig economy</li>
-  <li>short video discovery</li>
-  <li>live streaming</li>
-  <li>in‑app communication</li>
-  <li>seller infrastructure including payments and management tools</li>
-</ul>
-I lead vision, product structure, and feature planning while collaborating with engineers and growth partners. The focus is usability first, then scale.
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/truck.svg" width="22" height="22" style="vertical-align: middle;">  
-  Telente Logistic
-</h3>
-A shipment tracking environment designed for operational clarity.
-
-Features include:
-<ul>
-  <li>administrator controlled updates</li>
-  <li>automated email communication</li>
-  <li>transparent tracking flow</li>
-  <li>map‑supported visualization</li>
-  <li>simplified data management</li>
-</ul>
-This system strengthens my understanding of roles, reliability, and audit‑friendly design.
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/dollar-sign.svg" width="22" height="22" style="vertical-align: middle;">  
-  Crypto Exchange Interface
-</h3>
-A trading platform front‑end covering authentication, dashboards, peer‑to‑peer flows, KYC concepts, and wallet visibility. Built to practice complex state management, financial UX, and secure interaction patterns.
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/calculator.svg" width="22" height="22" style="vertical-align: middle;">  
-  Scientific Calculator
-</h3>
-A futuristic browser‑based calculator using advanced UI ideas and interactive elements. Created to push my JavaScript logic, structure, and user experience thinking.
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/terminal.svg" width="22" height="22" style="vertical-align: middle;">  
-  Hangman Game
-</h3>
-A modern implementation of the classic game with custom interface controls and improved logic handling. Focused on DOM control, event systems, and dynamic rendering.
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/briefcase.svg" width="22" height="22" style="vertical-align: middle;">  
-  Portfolio Systems
-</h3>
-Multiple iterations of personal portfolio platforms exploring layout, storytelling, performance, and recruiter‑focused presentation.
-
----
-
-<!-- Section: Engineering Abilities (icon categories + icon bullets) -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/tool.svg" width="28" height="28" style="vertical-align: middle;">  
-  Engineering Abilities
-</h2>
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/eye.svg" width="20" height="20" style="vertical-align: middle;">  
-  Front‑End Development
-</h3>
-<ul style="list-style: none; padding-left: 0;">
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  HTML</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  CSS</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  JavaScript</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Responsive design</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  UI structuring</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Component thinking</li>
-</ul>
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/cpu.svg" width="20" height="20" style="vertical-align: middle;">  
-  Programming Knowledge
-</h3>
-<ul style="list-style: none; padding-left: 0;">
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Python foundations</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Application flow understanding</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  API interaction awareness</li>
-</ul>
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/shield.svg" width="20" height="20" style="vertical-align: middle;">  
-  Cybersecurity Direction
-</h3>
-<ul style="list-style: none; padding-left: 0;">
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Networking knowledge</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Authentication awareness</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Threat thinking</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Secure product mindset</li>
-</ul>
-
-<h3>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/users.svg" width="20" height="20" style="vertical-align: middle;">  
-  Professional Operations
-</h3>
-<ul style="list-style: none; padding-left: 0;">
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Remote collaboration</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Documentation</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Research</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Administrative workflow</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/arrow-right-circle.svg" width="16" height="16" style="vertical-align: middle;">  Time and priority management</li>
-</ul>
-
----
-
-<!-- Section: Technology Environment (skill icons) -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/zap.svg" width="28" height="28" style="vertical-align: middle;">  
-  Technology Environment
-</h2>
-
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,figma,aws,docker" />   <!-- optional expansion, can remove if not accurate -->
-</div>
-
----
-
-<!-- Section: Builder Mentality -->
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0f2027,100:203a43&text=Oluwayemi%20Oyinlola%20Michael&fontSize=42&fontColor=ffffff&animation=fadeIn&stroke=00d9ff&strokeWidth=1"/>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGR0bHk5eG1sc2NqYzN4Y3B6d2p4c3F5b3Q4cXQ5cW9tN3B0aGQ0eSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13HgwGsXF0aiGY/giphy.gif" width="280"/>
 <h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/compass.svg" width="28" height="28" style="vertical-align: middle;">  
-  Builder Mentality
+Software Engineer | Backend Developer | Python Developer | Data Engineering Enthusiast
 </h2>
-
 <p>
-  I approach development with responsibility.<br>
-  Features must work. Interfaces must be clear.<br>
-  Systems must be safe. Products must move forward.
+Building reliable systems, data driven applications, and digital products that solve real problems.
 </p>
-
----
-
-<!-- Section: Current Focus (expanded from Growth Path) -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/trending-up.svg" width="28" height="28" style="vertical-align: middle;">  
-  Current Focus & Growth Path
-</h2>
-
-Right now my evolution is centered on three upgrades:
-
-<ul style="list-style: none; padding-left: 0;">
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/target.svg" width="18" height="18" style="vertical-align: middle;">  <strong>Stronger engineering depth</strong> – advanced JavaScript, system design, performance</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/shield.svg" width="18" height="18" style="vertical-align: middle;">  <strong>Practical security capability</strong> – hands‑on labs, certifications, secure SDLC</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/users.svg" width="18" height="18" style="vertical-align: middle;">  <strong>Shipping platforms that attract real users</strong> – growth, feedback, iteration</li>
-</ul>
-
-Every project in this profile supports that direction.
-
----
-
-<!-- Section: GitHub Achievements (expanded) -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/award.svg" width="28" height="28" style="vertical-align: middle;">  
-  GitHub Stats & Trophies
-</h2>
-
-<div align="center">
-
-<!-- Trophies -->
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=oyinlola-tech&theme=tokyonight&no-frame=true&row=1&column=7" />
+<br>
+<a href="https://oyinlola.site">
+<img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
-
-<!-- Stats cards -->
-<img src="https://github-readme-stats.vercel.app/api?username=oyinlola-tech&show_icons=true&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oyinlola-tech&layout=compact&theme=tokyonight&hide_border=true" />
-
-<!-- Streak -->
-<img src="https://streak-stats.demolab.com?user=oyinlola-tech&theme=tokyonight&hide_border=true" />
-
+<a href="https://github.com/oyinlola-tech">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/oluwayemioyinlola">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:oyinlola.tech@icloud.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 </div>
-
+# 👋 About Me
+I am a software engineer focused on backend development, Python engineering, and data driven systems.
+I enjoy transforming ideas into reliable digital products by combining software engineering principles, product thinking, and security awareness.
+My engineering journey covers:
+- Backend application development
+- API design and system architecture
+- Python programming
+- Data engineering concepts
+- Database design
+- Secure software development
+- Building products from idea to implementation
+Currently, I am expanding my expertise in data engineering while continuing to build scalable software systems.
 ---
+# 🚀 Current Focus
+<img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/target.svg" width="22"/>
+```text
+🐍 Python Engineering
+📊 Data Engineering & Analytics
+⚙ Backend Architecture
+🗄 Database Systems
+🔐 Secure Application Development
+☁ Cloud & Infrastructure
 
-<!-- Section: Opportunities I Welcome -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/handshake.svg" width="28" height="28" style="vertical-align: middle;">  
-  Opportunities I Welcome
-</h2>
+I am currently exploring how software systems collect, process, transform, and deliver meaningful data at scale.
 
-<ul style="list-style: none; padding-left: 0;">
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check.svg" width="18" height="18" style="vertical-align: middle;">  software engineering roles</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check.svg" width="18" height="18" style="vertical-align: middle;">  junior to mid cybersecurity pathways</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check.svg" width="18" height="18" style="vertical-align: middle;">  startup partnerships</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check.svg" width="18" height="18" style="vertical-align: middle;">  product collaboration</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check.svg" width="18" height="18" style="vertical-align: middle;">  operational support work</li>
-  <li><img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/check.svg" width="18" height="18" style="vertical-align: middle;">  investor conversations around Zudomart</li>
-</ul>
+⸻
 
----
+🛠 Engineering Philosophy
 
-<!-- Section: Contact (already at top, but keep bottom for completeness) -->
-<h2>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/mail.svg" width="28" height="28" style="vertical-align: middle;">  
-  Contact
-</h2>
+Great software is not only about writing code.
+It is about understanding problems,
+designing reliable solutions,
+and creating systems people can trust.
 
-<p>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/mail.svg" width="16" height="16" style="vertical-align: middle;">  
-  <strong>Email:</strong> <a href="mailto:oyinlola.tech@icloud.com">oyinlola.tech@icloud.com</a><br>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/phone.svg" width="16" height="16" style="vertical-align: middle;">  
-  <strong>Phone:</strong> <a href="tel:+2349133519489">+234 913 351 9489</a><br>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/linkedin.svg" width="16" height="16" style="vertical-align: middle;">  
-  <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/oluwayemioyinlola">oluwayemioyinlola</a>
-</p>
+I believe good engineering balances:
 
----
+✓ Clean architecture
+✓ User experience
+✓ Security
+✓ Performance
+✓ Maintainability
+
+⸻
+
+🌍 Featured Projects
+
+🛒 ZudoMart
+
+Founder | Product Engineer
+
+A digital commerce ecosystem designed to help African entrepreneurs build, sell, and grow online.
+
+Core concepts:
+
+* Marketplace infrastructure
+* Seller management systems
+* Digital products
+* Service marketplace
+* Real time communication
+* Creator economy features
+* Payment workflows
+* Business tools
+
+Technology direction:
+
+Frontend
+Backend Services
+Database Systems
+Payment Infrastructure
+Real Time Communication
+Cloud Architecture
+
+⸻
+
+🚚 Telente Logistic
+
+Backend System Project
+
+A logistics tracking platform designed to improve shipment visibility and operational management.
+
+Features:
+
+* Shipment tracking workflows
+* Admin controlled updates
+* Notification systems
+* Location visualization
+* Operational dashboards
+* Data management
+
+Engineering focus:
+
+Backend Logic
+API Design
+Database Structure
+System Reliability
+
+⸻
+
+📊 Data Engineering Laboratory
+
+A growing collection of projects focused on understanding data systems.
+
+Areas of exploration:
+
+* Python data processing
+* Data cleaning
+* ETL workflows
+* Database optimization
+* Analytics pipelines
+* Data transformation
+
+⸻
+
+💻 Technology Stack
+
+Languages
 
 <div align="center">
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,sql"/>
+</div>
 
-<p>
-  <img src="https://cdn.jsdelivr.net/npm/feather-icons/dist/icons/clock.svg" width="16" height="16" style="vertical-align: middle;">  
-  Serious results come from consistent execution.
-</p>
+Backend & Systems
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0f2027,100:2c5364&section=footer"/>
+<div align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,mongodb,postgres,redis,docker"/>
+</div>
+
+Data & Engineering Tools
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,pandas,git,github,linux,vscode"/>
+</div>
+
+⸻
+
+🏗 System Thinking
+
+I enjoy designing systems that move beyond individual features.
+
+Example architecture mindset:
+
+flowchart TD
+A[Users]
+A --> B[Frontend Applications]
+B --> C[Backend API Layer]
+C --> D[Authentication]
+C --> E[Business Services]
+E --> F[(Database)]
+E --> G[Data Processing Pipeline]
+G --> H[Analytics & Insights]
+
+⸻
+
+📚 Current Learning Path
+
+2026 Goals
+✓ Improve Python engineering depth
+✓ Build practical data engineering projects
+✓ Design better backend architectures
+✓ Understand scalable systems
+✓ Improve cloud infrastructure knowledge
+✓ Practice secure software development
+
+⸻
+
+📈 GitHub Statistics
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=oyinlola-tech&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oyinlola-tech&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=oyinlola-tech&theme=tokyonight&hide_border=true"/>
+</div>
+
+⸻
+
+🏆 GitHub Achievements
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=oyinlola-tech&theme=tokyonight&no-frame=true&row=1"/>
+</div>
+
+⸻
+
+🤝 Open To Opportunities
+
+I am interested in:
+
+* Backend engineering opportunities
+* Python engineering roles
+* Data engineering opportunities
+* Product engineering collaborations
+* Startup partnerships
+* Open source contributions
+
+⸻
+
+📬 Contact
+
+<div>
+
+📧 Email: oyinlola.tech@icloud.com
+
+🌐 Portfolio: oyinlola.site
+
+💼 LinkedIn: linkedin.com/in/oluwayemioyinlola
 
 </div>
+
+⸻
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0f2027,100:203a43&section=footer"/>
+</div>
+```
