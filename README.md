@@ -135,6 +135,8 @@ My goal is to build systems that not only store information but create value fro
 
 # <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/network.svg" width="28"/> System Thinking
 
+```
+
 graph TD
 
 A[Users] --> B[Applications]
@@ -153,7 +155,9 @@ G --> H[Data Processing]
 
 H --> I[Analytics]
 
----
+```
+
+
 
 # <img src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/activity.svg" width="28"/> Development Activity
 
