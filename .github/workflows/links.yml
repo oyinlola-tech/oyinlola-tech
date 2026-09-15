@@ -1,0 +1,38 @@
+name: README links
+
+# Every image and link in the profile README is an external service, and they
+# die for reasons unrelated to any commit. This checks all of them on every
+# change and once a week, so a broken badge is noticed rather than discovered.
+
+on:
+  push:
+    branches: [main]
+    paths: ["README.md", ".github/workflows/links.yml"]
+  pull_request:
+    paths: ["README.md"]
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every URL in README.md
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 3
+            --timeout 30
+            --accept 200,201,204,206,301,302,307,308,429,999
+            --exclude "^mailto:"
+            --exclude "linkedin\.com"
+            README.md
+          fail: true
