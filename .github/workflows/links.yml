@@ -34,5 +34,6 @@ jobs:
             --accept 200,201,204,206,301,302,307,308,429,999
             --exclude "^mailto:"
             --exclude "linkedin\.com"
+            --exclude "^https://(x|twitter)\.com/"
             README.md
           fail: true

@@ -30,6 +30,23 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      - uses: actions/checkout@v4
+
+      # The metrics action commits through the API and fails with 404 when the
+      # target branch does not exist yet, so create it once as an empty orphan.
+      - name: Ensure the metrics branch exists
+        run: |
+          if git ls-remote --exit-code --heads origin metrics >/dev/null 2>&1; then
+            echo "metrics branch already exists"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan metrics
+          git rm -rf --quiet .
+          git commit --allow-empty -m "chore: create metrics branch"
+          git push origin metrics
+
       - name: Render github-metrics.svg
         uses: lowlighter/metrics@v3.34
         with:
