@@ -24,6 +24,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The snake and the activity card are published to their own branches by
+      # sibling workflows. On a first push, or in a freshly created repository,
+      # those run at the same moment as this check, and the images do not exist
+      # yet. Give them up to five minutes to appear. The URLs are still checked
+      # below, so an image that never arrives still fails the job.
+      - name: Wait for images that sibling workflows publish
+        run: |
+          grep -oE "https://raw\.githubusercontent\.com/${GITHUB_REPOSITORY}/(output|metrics)/[^\" )]+" README.md | sort -u | while read -r url; do
+            for attempt in $(seq 1 30); do
+              code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$url" || true)
+              [ "$code" = "200" ] && break
+              sleep 10
+            done
+            echo "$code $url"
+          done
+
       - name: Check every URL in README.md
         uses: lycheeverse/lychee-action@v2
         with:
