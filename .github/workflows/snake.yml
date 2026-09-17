@@ -1,0 +1,43 @@
+name: Contribution snake
+
+# Draws the contribution-grid snake and publishes both variants to the
+# `output` branch, which is what README.md embeds. Runs twice a day, on
+# demand, and whenever this workflow file changes.
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/snake.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # Amber, to match the README artwork. Five dot colours: empty, then four levels.
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#ff8f43&color_dots=#ebedf0,#ffe3c8,#ffc590,#ffa35a,#f0842c
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#ffb067&color_dots=#161b22,#4a2d14,#87501f,#c4742f,#ffb067
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

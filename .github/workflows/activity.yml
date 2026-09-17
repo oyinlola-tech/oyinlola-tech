@@ -1,0 +1,73 @@
+name: Activity card
+
+# Draws the activity card README.md embeds and publishes it to the `metrics`
+# branch, so main's history stays free of bot commits.
+#
+# It needs no personal access token. Everything it reads is public: the
+# contribution calendar GitHub publishes for every profile, and the REST API's
+# repository and language endpoints. The workflow token only raises the rate
+# limit. This replaced lowlighter/metrics, which without a personal token
+# rendered "0 commits, 1 repository".
+#
+# While "Make profile private and hide activity" is on in the account's
+# settings, GitHub reports zero contributions to everyone, and the card falls
+# back to repositories and languages. Switch it off and the next run draws the
+# calendar and streaks.
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/activity.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the generator's dependencies
+        run: pip install fonttools brotli uharfbuzz
+
+      - name: Draw the card
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_LOGIN: ${{ github.repository_owner }}
+        run: python scripts/build_activity.py "$RUNNER_TEMP/github-metrics.svg"
+
+      - name: Publish to the metrics branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          tree="$RUNNER_TEMP/metrics-branch"
+          git worktree add --detach "$tree"
+          cd "$tree"
+          if git fetch --depth=1 origin metrics; then
+            git checkout -B metrics FETCH_HEAD
+          else
+            git checkout --orphan metrics
+            git rm -rf --quiet .
+          fi
+          cp "$RUNNER_TEMP/github-metrics.svg" github-metrics.svg
+          git add github-metrics.svg
+          if git diff --cached --quiet; then
+            echo "card unchanged, nothing to publish"
+            exit 0
+          fi
+          git commit --quiet -m "chore: refresh activity card"
+          git push origin metrics
