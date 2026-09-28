@@ -374,7 +374,7 @@ def build_hero():
     # -- telemetry, the portfolio's own four figures -----------------------------
     ty = h - 66
     doc.add(f'<path d="M{x} {ty - 22}H{x + 392}" stroke="{LINE2}"/>')
-    for i, (value, label) in enumerate([("79", "Go modules"), ("39", "TS packages"), ("26", "Case studies"), ("3", "Core languages")]):
+    for i, (value, label) in enumerate([("79", "Go modules"), ("39", "TS packages"), ("31", "Case studies"), ("3", "Core languages")]):
         cx = x + i * 102
         doc.text(cx, ty + 8, value, "display", 23, INK, track=-0.01)
         doc.text(cx, ty + 27, label, "mono", 9.8, MUTED, track=0.03)
@@ -415,18 +415,18 @@ PROJECTS = [
      [("79", "Go modules"), ("5", "Bounded domains"), ("13k+", "Go source files"), ("2", "Runtimes")]),
     ("zudojs", "Zudojs", "TypeScript application framework", "Open source", 210,
      [("39", "Packages"), ("198k", "Lines of TypeScript"), ("5", "Enforced tiers"), ("11", "Frontend adapters")]),
+    ("betng", "BetNG", "Virtual football platform", "Open source", 80,
+     [("12", "Backend services"), ("5", "Clients, one match model"), ("187", "Gateway routes"), ("14", "Invariants, each tested")]),
+    ("prooflens", "ProofLens", "Claim & evidence verification", "Open source", 16,
+     [("297", "Backend tests passing"), ("4", "Possible verdicts"), ("4", "AI providers, one interface"), ("22", "API routes")]),
+    ("powerwatch", "PowerWatch", "Power-outage reporting platform", "Open source", 46,
+     [("74", "API endpoints"), ("21", "Prisma models"), ("26", "Mobile screens"), ("6", "Geographic levels")]),
     ("sentinelx", "SentinelX", "Network intrusion detection & prevention", "Open source", 152,
      [("0–100", "Risk, with reasons"), ("75", "Test files"), ("2", "Capture modes"), ("Dry run", "Default response")]),
     ("commitguard", "CommitGuard", "Commit provenance & policy engine", "Open source", 38,
      [("4", "Detectors"), ("3", "Git hooks"), ("3", "Enforcement points"), ("63", "Test files")]),
     ("kolo", "Kolo", "Cooperative savings & payments infrastructure", "Open source", 158,
      [("32", "Prisma repositories"), ("18", "Controllers"), ("14", "Background queues"), ("3", "Role dashboards")]),
-    ("utils-tool", "Utils-tool", "Local-first media utility suite", "Live", 44,
-     [("28", "Tools"), ("2", "Runtime environments"), ("0", "Databases"), ("0", "Accounts required")]),
-    ("agentlab", "AgentLab", "Agent execution & evaluation runtime", "Case study", 150,
-     [("3", "Execution environments"), ("5", "Scoring dimensions"), ("2", "Model providers, routed"), ("1", "Command to demo")]),
-    ("scriptune", "Scriptune", "Bible & hymn recognition platform", "Open source", 268,
-     [("27", "Prisma models"), ("6", "Bible translations"), ("1,200", "Hymns"), ("3", "Apps · API, web, mobile")]),
 ]
 
 STATUS_COLOR = {"Open source": SIGNAL, "Live": ACCENT, "Private": MUTED, "Case study": "#9bb4ff"}
@@ -644,8 +644,8 @@ JOURNEY = [
     ("2023", "Founded ZudoMart", "Started the backend that became a 79-module Go monolith."),
     ("2025", "Newdich Technology", "Backend Engineer on Eko Xpedite Exchange: merchant, agent and end-user flows."),
     ("Jan 2026", "EquityPilot", "ZudoMart joined FasterCapital's EquityPilot programme."),
-    ("2026", "Shipped in the open", "Zudojs, Kolo, Telente CBT, Telente Store, Utils-tool, PowerWatch, LearnBridge, Zudo POS."),
-    ("Now", "Security and data", "SentinelX, CommitGuard and Scriptune, alongside a BSc in Computer Science."),
+    ("2026", "Shipped in the open", "Zudojs, Kolo, PowerWatch, Telente CBT, Telente Store, Utils-tool, LearnBridge, Zudo POS."),
+    ("Now", "Systems you can check", "BetNG, ProofLens, SentinelX and CommitGuard, alongside a BSc in Computer Science."),
 ]
 
 
