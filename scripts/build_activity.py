@@ -240,7 +240,7 @@ def build(path):
 
     doc.h = ly + 48
     doc.body[0] = f'<rect x="0.5" y="0.5" width="{n(W - 1)}" height="{n(doc.h - 1)}" rx="16" fill="#07080b" stroke="rgba(255,255,255,0.08)"/>'
-    doc.text(x0, doc.h - 18, f"Public repositories only. Private work such as ZudoMart and Telente CBT is not counted. Updated {dt.date.today().isoformat()}.",
+    doc.text(x0, doc.h - 18, f"Public repositories only. Private work such as Nantty and Telente CBT is not counted. Updated {dt.date.today().isoformat()}.",
              "mono", 9.6, FAINT, track=0.02)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(doc.render(), encoding="utf-8")

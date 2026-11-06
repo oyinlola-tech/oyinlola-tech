@@ -246,22 +246,21 @@ REDUCED_MOTION = "@media (prefers-reduced-motion:reduce){.mo{display:none}.tw{an
 
 
 # --------------------------------------------------------------------------
-# Hero: ZudoMart's real module graph as the centrepiece
+# Hero: an illustrative map of Nantty's pre-launch product workspace
 # --------------------------------------------------------------------------
-# Counts are from the case study: 26 + 20 + 14 + 14 + 5 = 79 Go modules.
-DOMAINS = [
-    ("commerce", 26, "#ffb067", (-118, -78)),
-    ("platform", 20, "#56d6c0", (124, -66)),
-    ("social", 14, "#6e92ff", (-104, 92)),
-    ("creator", 5, "#9b8cff", (128, 96)),
-    ("core", 14, "#d8e2ff", (6, 8)),
+SYSTEMS = [
+    ("go", 6, "#ffb067", (-118, -78)),
+    ("typescript", 5, "#56d6c0", (124, -66)),
+    ("elixir", 1, "#6e92ff", (-104, 92)),
+    ("python", 1, "#9b8cff", (128, 96)),
+    ("apps", 7, "#d8e2ff", (6, 8)),
 ]
 
 
 def build_hero():
     h = 430
     doc = Doc(W, h, "Oluwayemi Oyinlola Michael, software engineer",
-              "Backend systems in Go, Python and TypeScript. The graph is ZudoMart: 79 Go modules in five domains, joined by an event spine.")
+              "Software, full-stack and data engineer; founder of Nantty, a social marketplace in development. An illustrative map of seven apps, six Go deployables, five TypeScript services, Phoenix realtime and Python intelligence.")
     doc.css.append(
         "@keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}.tw{animation:tw 3.6s ease-in-out infinite}"
         "@keyframes live{0%,100%{opacity:.35;r:3.2px}50%{opacity:1;r:4.4px}}.live{animation:live 2.4s ease-in-out infinite}"
@@ -279,7 +278,7 @@ def build_hero():
     cx0, cy0 = 652, 222
     rnd = rng(7919)
     centres, parts_lines, parts_nodes, parts_glow, hot = {}, [], [], [], []
-    for name, count, color, (dx, dy) in DOMAINS:
+    for name, count, color, (dx, dy) in SYSTEMS:
         cx, cy = cx0 + dx, cy0 + dy
         centres[name] = (cx, cy, color)
         spread = 13 + math.sqrt(count) * 8.2
@@ -306,10 +305,10 @@ def build_hero():
                 hot.append((x, y, color, rnd() * 3.6))
             parts_nodes.append(f'<circle cx="{n(x)}" cy="{n(y)}" r="{n(r)}" fill="{color}" opacity="{n(0.55 + rnd() * 0.45)}"/>')
 
-    # the event spine: every outer domain talks to core, never to each other
-    core = centres["core"]
+    # Illustrative connections between service groups and the product apps.
+    core = centres["apps"]
     spine, pulses = [], []
-    for idx, (name, _, color, _) in enumerate(DOMAINS[:-1]):
+    for idx, (name, _, color, _) in enumerate(SYSTEMS[:-1]):
         x, y, _ = centres[name]
         mx, my = (x + core[0]) / 2, (y + core[1]) / 2
         bend = 26 if idx % 2 == 0 else -26
@@ -335,13 +334,13 @@ def build_hero():
     doc.add("".join(pulses))
     doc.add("</g>")
 
-    label_at = {"commerce": (-1, -1), "platform": (1, -1), "social": (-1, 1), "creator": (1, 1), "core": (0, 1)}
-    for name, count, color, _ in DOMAINS:
+    label_at = {"go": (-1, -1), "typescript": (1, -1), "elixir": (-1, 1), "python": (1, 1), "apps": (0, 1)}
+    for name, count, color, _ in SYSTEMS:
         x, y, _ = centres[name]
         spread = 13 + math.sqrt(count) * 8.2
         sx, sy = label_at[name]
         ly = y + sy * (spread + 17) + (4 if sy > 0 else 0)
-        if name == "core":
+        if name == "apps":
             ly = y + spread + 16
         lx = x + sx * spread * 0.35
         wname = measure(name, "mono", 10.5, 0.04)
@@ -350,7 +349,7 @@ def build_hero():
         doc.text(start, ly, name, "mono", 10.5, color, track=0.04, opacity=0.95)
         doc.text(start + wname + 8, ly, f"{count}", "monob", 10.5, INK)
 
-    doc.text(W - 36, h - 30, "ZudoMart · 79 Go modules · five domains · one deployable", "mono", 10.5, FAINT, anchor="end", track=0.02)
+    doc.text(W - 36, h - 30, "Nantty · 7 apps · 6 Go deployables · 5 TypeScript services", "mono", 10.5, FAINT, anchor="end", track=0.02)
 
     # -- masthead -----------------------------------------------------------
     doc.add(wave_mark(30, 22, 34))
@@ -362,7 +361,7 @@ def build_hero():
 
     # -- statement ----------------------------------------------------------
     x = 36
-    doc.text(x, 116, "SOFTWARE ENGINEER  ·  ONDO STATE, NIGERIA  ·  UTC+1", "mono", 10.5, ACCENT, track=0.12)
+    doc.text(x, 116, "SOFTWARE · FULL-STACK · DATA ENGINEER  ·  LAGOS, NIGERIA", "mono", 9.3, ACCENT, track=0.05)
     size = 50
     while measure("Oyinlola Michael", "displayb", size, -0.022) > 398:
         size -= 1
@@ -374,7 +373,7 @@ def build_hero():
     # -- telemetry, the portfolio's own four figures -----------------------------
     ty = h - 66
     doc.add(f'<path d="M{x} {ty - 22}H{x + 392}" stroke="{LINE2}"/>')
-    for i, (value, label) in enumerate([("79", "Go modules"), ("39", "TS packages"), ("31", "Case studies"), ("3", "Core languages")]):
+    for i, (value, label) in enumerate([("7", "Product apps"), ("6", "Go deployables"), ("5", "TS services"), ("31", "Case studies")]):
         cx = x + i * 102
         doc.text(cx, ty + 8, value, "display", 23, INK, track=-0.01)
         doc.text(cx, ty + 27, label, "mono", 9.8, MUTED, track=0.03)
@@ -411,8 +410,8 @@ def sigil(slug: str, hue: int, x0: float, y0: float, w: float, h: float, cols=46
 
 PROJECTS = [
     # slug, file, name, kind, status, hue, metrics
-    ("zudomart", "ZudoMart", "Social commerce super-app", "Private", 26,
-     [("79", "Go modules"), ("5", "Bounded domains"), ("13k+", "Go source files"), ("2", "Runtimes")]),
+    ("nantty", "Nantty", "Social marketplace", "In development", 26,
+     [("7", "Product apps"), ("6", "Go deployables"), ("5", "TypeScript services"), ("Pre-launch", "Status")]),
     ("zudojs", "Zudojs", "TypeScript application framework", "Open source", 210,
      [("39", "Packages"), ("198k", "Lines of TypeScript"), ("5", "Enforced tiers"), ("11", "Frontend adapters")]),
     ("betng", "BetNG", "Virtual football platform", "Open source", 80,
@@ -429,7 +428,7 @@ PROJECTS = [
      [("32", "Prisma repositories"), ("18", "Controllers"), ("14", "Background queues"), ("3", "Role dashboards")]),
 ]
 
-STATUS_COLOR = {"Open source": SIGNAL, "Live": ACCENT, "Private": MUTED, "Case study": "#9bb4ff"}
+STATUS_COLOR = {"Open source": SIGNAL, "Live": ACCENT, "Private": MUTED, "Case study": "#9bb4ff", "In development": "#9bb4ff"}
 
 
 def build_projects():
@@ -499,7 +498,8 @@ def readable(hex_color: str) -> str:
 
 
 STACK = [
-    ("Languages", [("go", "Go", "00ADD8"), ("python", "Python", "3776AB"), ("typescript", "TypeScript", "3178C6"),
+    ("Languages", [("go", "Go", "00ADD8"), ("kotlin", "Kotlin", "7F52FF"), ("php", "PHP", "777BB4"),
+                   ("python", "Python", "3776AB"), ("swift", "Swift", "F05138"), ("typescript", "TypeScript", "3178C6"),
                    ("javascript", "JavaScript", "F7DF1E"), ("gnubash", "Bash", "4EAA25")]),
     ("Backend", [("zudojs", "Zudojs", ""), ("nodedotjs", "Node.js", "5FA04E"), ("fastify", "Fastify", "000000"),
                  ("express", "Express", "000000"), ("fastapi", "FastAPI", "009688"), ("gin", "Gin", "008ECF"),
@@ -510,9 +510,11 @@ STACK = [
     ("Infrastructure", [("linux", "Linux", "FCC624"), ("kalilinux", "Kali", "557C94"), ("docker", "Docker", "2496ED"),
                         ("kubernetes", "Kubernetes", "326CE5"), ("terraform", "Terraform", "844FBA"), ("nginx", "Nginx", "009639"),
                         ("traefikproxy", "Traefik", "24A1C1"), ("githubactions", "Actions", "2088FF"), ("git", "Git", "F05032")]),
-    ("Frontend & tooling", [("react", "React", "61DAFB"), ("nextdotjs", "Next.js", "000000"), ("tailwindcss", "Tailwind", "06B6D4"),
-                            ("threedotjs", "Three.js", "000000"), ("expo", "Expo", "000020"), ("vite", "Vite", "646CFF"),
-                            ("vitest", "Vitest", "6E9F18"), ("postman", "Postman", "FF6C37"), ("swagger", "Swagger", "85EA2D")]),
+    ("Frontend & mobile", [("react", "React", "61DAFB"), ("nextdotjs", "Next.js", "000000"),
+                           ("reactnative", "React Native", "61DAFB"), ("expo", "Expo", "000020"),
+                           ("kotlin", "Kotlin", "7F52FF"), ("swift", "Swift", "F05138"), ("tailwindcss", "Tailwind", "06B6D4")]),
+    ("Tooling", [("threedotjs", "Three.js", "000000"), ("vite", "Vite", "646CFF"),
+                 ("vitest", "Vitest", "6E9F18"), ("postman", "Postman", "FF6C37"), ("swagger", "Swagger", "85EA2D")]),
 ]
 
 
@@ -538,6 +540,9 @@ def build_stack():
                     f'stroke="{ACCENT if own else LINE}" stroke-opacity="{0.55 if own else 1}"/>')
             if own:
                 doc.add(zudo_mark(x + tile_w / 2 - 14, y + 13, 28))
+            elif slug in {"php", "kotlin", "swift", "reactnative"}:
+                mark = {"php": "PHP", "kotlin": "K", "swift": "S", "reactnative": "RN"}[slug]
+                doc.text(x + tile_w / 2, y + 37, mark, "displayb", 18 if len(mark) < 3 else 12, readable(color), anchor="middle")
             else:
                 k = 26 / 24
                 doc.add(f'<path transform="translate({n(x + tile_w / 2 - 13)} {n(y + 14)}) scale({n(k)})" fill="{readable(color)}" d="{icon_path(slug)}"/>')
@@ -546,7 +551,7 @@ def build_stack():
 
 
 # --------------------------------------------------------------------------
-# Architecture: how a backend is laid out, drawn from ZudoMart
+# Architecture: an overview of Nantty's pre-launch workspace
 # --------------------------------------------------------------------------
 def box(doc, x, y, w, h, title, sub=None, color=LINE2, fill=STAGE3, title_color=INK, r=10, center=True):
     doc.add(f'<rect x="{n(x)}" y="{n(y)}" width="{n(w)}" height="{n(h)}" rx="{r}" fill="{fill}" stroke="{color}"/>')
@@ -558,82 +563,42 @@ def box(doc, x, y, w, h, title, sub=None, color=LINE2, fill=STAGE3, title_color=
 
 
 def build_architecture():
-    h = 500
-    doc = Doc(W, h, "How I structure a backend, drawn from ZudoMart",
-              "Clients reach a Go modular monolith through a Traefik edge. Four domains depend on core, never on each other. "
-              "State lives in PostgreSQL and Redis. Domain events travel a Kafka spine to a Python service that returns scores.")
-    doc.css.append(REDUCED_MOTION)
+    h = 430
+    doc = Doc(W, h, "Nantty workspace architecture overview",
+              "Pre-launch product workspace: seven apps, six Go deployables, five TypeScript services, Phoenix realtime, Python intelligence, PostgreSQL and RabbitMQ. "
+              "The diagram summarizes code and local development; the AWS deployment plan is not applied.")
     panel(doc)
 
-    # clients and edge
-    doc.text(30, 40, "CLIENTS", "mono", 10, MUTED, track=0.1)
-    box(doc, 30, 54, 100, 44, "Web app")
-    box(doc, 30, 108, 100, 44, "Mobile app")
-    box(doc, 30, 196, 100, 52, "Traefik", "edge · TLS", color=LINE2)
-    doc.add(arrow(80, 152, 80, 194, FAINT))
-    doc.add(arrow(130, 222, 172, 222, FAINT))
+    doc.text(30, 38, "PRODUCT APPS", "mono", 10, MUTED, track=0.1)
+    clients = [("Mobile", 30), ("Buyer web", 194), ("Studio + seller", 358), ("Ads + admin", 522), ("Marketing", 686)]
+    for label, x in clients:
+        box(doc, x, 50, 148, 48, label, color=LINE2, fill=STAGE3)
+    doc.text(850, 82, "7 total", "mono", 9.5, MUTED, anchor="end")
 
-    # the monolith
-    mx, my, mw, mh = 174, 54, 476, 286
-    doc.add(f'<rect x="{mx}" y="{my}" width="{mw}" height="{mh}" rx="14" fill="{STAGE2}" stroke="{ACCENT}" stroke-opacity=".5"/>')
-    doc.text(mx, 40, "GO MODULAR MONOLITH", "mono", 10, ACCENT, track=0.1)
-    doc.text(mx + mw, 40, "79 modules · one deployable", "mono", 10, MUTED, anchor="end", track=0.02)
-    box(doc, mx + 16, my + 16, mw - 32, 38, "HTTP layer · chi", None, fill=STAGE4)
-    doms = [("Commerce", "26 modules", "#ffb067"), ("Social", "14 modules", "#6e92ff"),
-            ("Creator", "5 modules", "#9b8cff"), ("Platform", "20 modules", "#56d6c0")]
-    dw = (mw - 32 - 3 * 10) / 4
-    for i, (title, sub, color) in enumerate(doms):
-        dx = mx + 16 + i * (dw + 10)
-        box(doc, dx, my + 76, dw, 62, title, sub, color=color, title_color=INK)
-        doc.add(f'<rect x="{n(dx)}" y="{my + 76}" width="{n(dw)}" height="3" rx="1.5" fill="{color}"/>')
-        doc.add(arrow(dx + dw / 2, my + 54, dx + dw / 2, my + 75, FAINT, head=4.5))
-        doc.add(arrow(dx + dw / 2, my + 138, dx + dw / 2, my + 151, FAINT, head=4.5))
-        doc.add(arrow(dx + dw / 2, my + 186, dx + dw / 2, my + 201, FAINT, head=4.5))
-    # the trust engine cuts across domains: escrow in commerce, KYC and fraud in platform, verification in core
-    doc.add(f'<rect x="{n(mx + 16)}" y="{my + 152}" width="{n(mw - 32)}" height="34" rx="8" fill="#ffb067" fill-opacity=".07" stroke="#ffb067" stroke-opacity=".55"/>')
-    wt = doc.text(mx + 30, my + 173.5, "Trust engine", "bodym", 12.5, INK)
-    doc.text(mx + 30 + wt + 12, my + 173, "escrow · three-tier verification · risk scoring", "mono", 9.4, INK_DIM, track=0.01)
-    box(doc, mx + 16, my + 202, mw - 32, 44, "Core", "14 modules · users · auth · search · ranking · analytics", color="#d8e2ff", fill=STAGE4)
-    doc.text(mx + mw / 2, my + 270, "Modules talk by command, query and event. Never by reaching into each other's data.",
-             "body", 11.5, INK_DIM, anchor="middle")
+    doc.add(arrow(440, 102, 440, 128, FAINT))
+    box(doc, 250, 130, 380, 48, "Gateway and service APIs", "Go · TypeScript", color=ACCENT, fill=STAGE2)
 
-    # python service
-    px, py, pw, ph = 690, 54, 160, 286
-    doc.add(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="14" fill="{STAGE2}" stroke="#56d6c0" stroke-opacity=".5"/>')
-    doc.text(px, 40, "PYTHON SERVICE", "mono", 10, "#56d6c0", track=0.1)
-    doc.text(px + pw / 2, py + 34, "FastAPI", "bodym", 14, INK, anchor="middle")
-    for i, item in enumerate(["ranking", "recommendation", "moderation", "fraud detection", "forecasting"]):
-        iy = py + 56 + i * 34
-        doc.add(f'<rect x="{px + 14}" y="{iy}" width="{pw - 28}" height="26" rx="7" fill="{STAGE3}" stroke="{LINE}"/>')
-        doc.text(px + pw / 2, iy + 17, item, "mono", 10.2, INK_DIM, anchor="middle")
-    for j, line in enumerate(["Retrain a model without", "redeploying payments."]):
-        doc.text(px + pw / 2, py + 244 + j * 15, line, "body", 11, MUTED, anchor="middle")
+    doc.text(30, 210, "SERVICE GROUPS", "mono", 10, MUTED, track=0.1)
+    groups = [
+        (30, 256, "Go · 6 deployables", ("identity · commerce · money", "live · ads · trust"), "#ffb067"),
+        (312, 256, "TypeScript · 5 services", ("social · notifications · search", "media · support"), "#56d6c0"),
+        (594, 124, "Elixir", ("Phoenix", "realtime"), "#6e92ff"),
+        (742, 108, "Python", ("intelligence", "scores"), "#9b8cff"),
+    ]
+    for x, w, title, sub, color in groups:
+        doc.add(f'<rect x="{x}" y="226" width="{w}" height="84" rx="10" fill="{STAGE2}" stroke="{color}"/>')
+        doc.text(x + w / 2, 250, title, "bodym", 12, INK, anchor="middle")
+        doc.text(x + w / 2, 273, sub[0], "mono", 8.8, INK_DIM, anchor="middle")
+        doc.text(x + w / 2, 290, sub[1], "mono", 8.8, INK_DIM, anchor="middle")
+    for x in (158, 440, 656, 796):
+        doc.add(arrow(x, 180, x, 222, FAINT, head=4.5))
 
-    # data row
-    dy = 392
-    doc.text(30, dy - 14, "STATE", "mono", 10, MUTED, track=0.1)
-    box(doc, 174, dy, 180, 52, "PostgreSQL", "ent + Atlas migrations")
-    box(doc, 366, dy, 120, 52, "Redis", "cache · sessions")
-    doc.add(arrow(264, 340, 264, dy - 2, FAINT))
-    doc.add(arrow(426, 340, 426, dy - 2, FAINT))
-
-    # kafka spine
-    kx1, kx2, ky = 510, 850, dy + 26
-    doc.add(f'<rect x="{kx1}" y="{dy}" width="{kx2 - kx1}" height="52" rx="26" fill="{STAGE3}" stroke="{ACCENT}" stroke-opacity=".45"/>')
-    doc.text(kx1 + 24, ky - 1, "Kafka event spine", "bodym", 13, INK)
-    doc.text(kx1 + 24, ky + 14, "events out · scores back", "mono", 9.6, MUTED, track=0.02)
-    doc.add(f'<path id="bus" d="M{kx1 + 196} {ky}H{kx2 - 24}" stroke="{ACCENT}" stroke-opacity=".65" stroke-dasharray="1.5 6" stroke-linecap="round" stroke-width="1.6"/>')
-    for k in range(3):
-        doc.add(f'<circle class="mo" r="3" opacity="0" fill="{ACCENT}"><animateMotion dur="2.8s" begin="{n(k * 0.93)}s" repeatCount="indefinite"><mpath href="#bus"/></animateMotion>'
-                f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.8;1" dur="2.8s" begin="{n(k * 0.93)}s" repeatCount="indefinite"/></circle>')
-    doc.add(arrow(580, 340, 580, dy - 2, ACCENT, dash="4 4", opacity=0.85))
-    doc.text(588, 368, "events", "mono", 9.6, ACCENT, track=0.04)
-    doc.add(arrow(726, dy - 2, 726, 342, "#56d6c0", dash="4 4", opacity=0.85))
-    doc.text(718, 368, "consume", "mono", 9.6, "#56d6c0", anchor="end", track=0.04)
-    doc.add(arrow(822, 342, 822, dy - 2, "#56d6c0", dash="4 4", opacity=0.85))
-    doc.text(814, 368, "scores", "mono", 9.6, "#56d6c0", anchor="end", track=0.04)
-
-    doc.text(30, h - 22, "Deployed with Docker, Kubernetes, Terraform and Traefik, versioned alongside the code.", "mono", 10, FAINT, track=0.02)
+    doc.text(30, 344, "LOCAL DEVELOPMENT INFRASTRUCTURE", "mono", 10, MUTED, track=0.08)
+    infra = [(30, 360, 250, "PostgreSQL", "service-owned schemas"),
+             (315, 360, 250, "RabbitMQ", "transactional outbox"),
+             (600, 360, 250, "Docker Compose", "local stack · AWS plan unapplied")]
+    for x, y, w, title, sub in infra:
+        box(doc, x, y, w, 48, title, sub, color=LINE2, fill=STAGE3)
     doc.save("architecture.svg")
 
 
@@ -641,17 +606,16 @@ def build_architecture():
 # Journey: a real sequence, so it is drawn as one
 # --------------------------------------------------------------------------
 JOURNEY = [
-    ("2023", "Founded ZudoMart", "Started the backend that became a 79-module Go monolith."),
-    ("2025", "Newdich Technology", "Backend Engineer on Eko Xpedite Exchange: merchant, agent and end-user flows."),
-    ("Jan 2026", "EquityPilot", "ZudoMart joined FasterCapital's EquityPilot programme."),
-    ("2026", "Shipped in the open", "Zudojs, Kolo, PowerWatch, Telente CBT, Telente Store, Utils-tool, LearnBridge, Zudo POS."),
-    ("Now", "Systems you can check", "BetNG, ProofLens, SentinelX and CommitGuard, alongside a BSc in Computer Science."),
+    ("Experience", "Newdich Technology", "Backend engineering on software built with a product team."),
+    ("Open source", "Zudojs", "A modular TypeScript framework, alongside other public projects."),
+    ("Project work", "31 case studies", "Systems across commerce, data, security, learning and developer tools."),
+    ("Now", "Nantty", "Founder and lead engineer building a social marketplace. Pre-launch development is ongoing."),
 ]
 
 
 def build_journey():
     h = 214
-    doc = Doc(W, h, "Journey, 2023 to now", " ".join(f"{w}: {t}. {b}" for w, t, b in JOURNEY))
+    doc = Doc(W, h, "Engineering work and current focus", " ".join(f"{w}: {t}. {b}" for w, t, b in JOURNEY))
     doc.css.append("@keyframes tw{0%,100%{opacity:.3}50%{opacity:1}}.tw{animation:tw 2.6s ease-in-out infinite}" + REDUCED_MOTION)
     doc.defs.append(f'<linearGradient id="rail" gradientUnits="userSpaceOnUse" x1="30" x2="850"><stop offset="0" stop-color="{ACCENT}" stop-opacity=".15"/>'
                     f'<stop offset="1" stop-color="{ACCENT}"/></linearGradient>')
@@ -695,7 +659,7 @@ def build_buttons():
 
 def build_footer():
     h = 96
-    doc = Doc(W, h, "oyinlola1.vercel.app")
+    doc = Doc(W, h, "www.oyinlola.site")
     doc.defs.append(f'<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="{ACCENT}" stop-opacity="0"/>'
                     f'<stop offset=".5" stop-color="{ACCENT}"/><stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></linearGradient>')
     panel(doc)
@@ -706,7 +670,7 @@ def build_footer():
             d += f"c14-26 27-26 41 0s27 26 41 0"
             x += 82
         doc.add(f'<path d="{d}" stroke="url(#fade)" stroke-width="1.6" fill="none" opacity="{op}" stroke-linecap="round"/>')
-    doc.text(W / 2, 80, "oyinlola1.vercel.app  ·  built from one Python script, no third-party image services", "mono", 10.2, FAINT, anchor="middle", track=0.03)
+    doc.text(W / 2, 80, "www.oyinlola.site  ·  built from one Python script, no third-party image services", "mono", 10.2, FAINT, anchor="middle", track=0.03)
     doc.save("footer.svg")
 
 

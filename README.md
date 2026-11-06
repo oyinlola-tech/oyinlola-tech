@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://oyinlola.site" target="_blank" rel="noopener noreferrer"><img src="assets/hero.svg" width="100%" alt="Oluwayemi Oyinlola Michael. Software engineer in Ondo State, Nigeria. I build the systems behind useful products: backend APIs, data pipelines, developer tools, and the architecture that holds them together. 79 Go modules, 39 TypeScript packages, 31 case studies, 3 core languages. Open to backend and platform roles." /></a>
+<a href="https://www.oyinlola.site" target="_blank" rel="noopener noreferrer"><img src="assets/hero.svg" width="100%" alt="Oluwayemi Oyinlola Michael, software engineer and full-stack engineer, founder of Nantty, a social marketplace in development. Explore 31 project case studies." /></a>
 
 <br/>
 
-<a href="https://oyinlola1.vercel.app" target="_blank" rel="noopener noreferrer"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio" /></a>&nbsp;<a href="https://oyinlola.site/cv" target="_blank" rel="noopener noreferrer"><img src="assets/btn-cv.svg" height="40" alt="Read the CV" /></a>&nbsp;<a href="mailto:oluwayemioyinlola2@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email" /></a>&nbsp;<a href="https://www.linkedin.com/in/oluwayemioyinlola" target="_blank" rel="noopener noreferrer"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;<a href="https://x.com/oyinlola141" target="_blank" rel="noopener noreferrer"><img src="assets/btn-x.svg" height="40" alt="X" /></a>
+<a href="https://www.oyinlola.site" target="_blank" rel="noopener noreferrer"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio" /></a>&nbsp;<a href="https://www.oyinlola.site/cv" target="_blank" rel="noopener noreferrer"><img src="assets/btn-cv.svg" height="40" alt="Read the CV" /></a>&nbsp;<a href="mailto:oluwayemioyinlola2@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email" /></a>&nbsp;<a href="https://www.linkedin.com/in/oluwayemioyinlola" target="_blank" rel="noopener noreferrer"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;<a href="https://x.com/oyinlola141" target="_blank" rel="noopener noreferrer"><img src="assets/btn-x.svg" height="40" alt="X" /></a>
 
 </div>
 
@@ -12,13 +12,13 @@
 
 ## About me
 
-I am a software engineer focused on backend development and systems engineering. I enjoy building the parts of software that users do not always see: APIs, databases, authentication, event-driven services, data pipelines, developer tools, and the architecture that connects them.
+I am a software engineer, full-stack engineer and data engineer focused on building complete product experiences and the systems behind them. My work spans user interfaces, APIs, databases, authentication, event-driven services, data pipelines, developer tools, and the architecture that connects them.
 
 Most of what I have shipped serves Nigerian schools, shops, savings groups and traders. Those users have thin margins, slow networks and no patience for a product that almost works, which is a demanding teacher. It is why I care about where module boundaries go, what owns which data, what happens when a dependency is down, and how the next engineer finds their way around.
 
 <table>
-<tr><td width="170" valign="top"><b>Now</b></td><td>Founder & Lead Engineer at <b>ZudoMart</b> since 2023 · Backend Engineer at <b>Newdich Technology</b> since 2025</td></tr>
-<tr><td width="170" valign="top"><b>Core languages</b></td><td>Go · Python · TypeScript</td></tr>
+<tr><td width="170" valign="top"><b>Now</b></td><td>Founder & Lead Engineer of <a href="https://nantty.com"><b>Nantty</b></a>, a social marketplace in development · Backend Engineer at <b>Newdich Technology</b> since 2025</td></tr>
+<tr><td width="170" valign="top"><b>Languages</b></td><td>Go · Kotlin · PHP · Python · Swift · TypeScript · JavaScript · SQL</td></tr>
 <tr><td width="170" valign="top"><b>Focus</b></td><td>Backend engineering · Python and data engineering · Distributed systems · Developer infrastructure</td></tr>
 <tr><td width="170" valign="top"><b>Security</b></td><td>Not a separate job, a way of building: Argon2, TOTP, HMAC-verified webhooks, RBAC, rate limits that survive a restart, audit trails written before the first dispute</td></tr>
 <tr><td width="170" valign="top"><b>Studying</b></td><td>BSc Computer Science at University of the People · ALX programmes completed</td></tr>
@@ -31,12 +31,14 @@ Most of what I have shipped serves Nigerian schools, shops, savings groups and t
 
 Each banner carries the project's own colour and lattice from my portfolio, and four figures counted in its repository.
 
-<a href="https://oyinlola1.vercel.app/work/zudomart" target="_blank" rel="noopener noreferrer"><img src="assets/project-zudomart.svg" width="100%" alt="ZudoMart: 79 Go modules, 5 bounded domains, 13k+ Go source files, 2 runtimes" /></a>
+<a href="https://www.oyinlola.site/work/nantty" target="_blank" rel="noopener noreferrer"><img src="assets/project-nantty.svg" width="100%" alt="Nantty, a social marketplace in development for African buyers, sellers and creators, starting in Nigeria. Six Go deployables, five TypeScript services and seven product apps." /></a>
 
-An Africa-first social commerce platform: marketplace, services, micro-gigs and live commerce behind a multi-layer trust engine. One Go deployable organised into 79 modules across five bounded domains, with CQRS over a Kafka event spine, ent schemas with Atlas migrations, money held as minor units, and a separate Python service for ranking, recommendation and fraud detection. Joined FasterCapital's EquityPilot programme in January 2026.
+Nantty brings social discovery, creator tools and seller-managed commerce into one product for African buyers, sellers and creators, starting in Nigeria. I am its founder and lead engineer. The multi-app workspace includes mobile, buyer web, creator studio, seller dashboard, Ads Manager, staff console and a public marketing site, with Go, TypeScript, Elixir and Python services behind them.
 
-<sub>Go · chi · ent + Atlas · PostgreSQL · Redis · Kafka · Python · FastAPI · Kubernetes · Terraform</sub><br/>
-<a href="https://oyinlola1.vercel.app/work/zudomart" target="_blank" rel="noopener noreferrer">Case study</a>
+Nantty is under development and has not launched. Its apps can run with mock data or against a local backend; its AWS deployment plan is written but has not been applied. Production payment setup is still a launch requirement.
+
+<sub>Go · TypeScript · Elixir · Python · PostgreSQL · RabbitMQ · Expo · Fastify · Phoenix · FastAPI</sub><br/>
+<a href="https://nantty.com" target="_blank" rel="noopener noreferrer">Nantty</a> · <a href="https://www.oyinlola.site/work/nantty" target="_blank" rel="noopener noreferrer">Case study</a>
 
 <br/>
 
@@ -45,7 +47,7 @@ An Africa-first social commerce platform: marketplace, services, micro-gigs and 
 A modular TypeScript framework I wrote and now build on: 39 packages on npm for DI, lifecycle, config, HTTP, events, CQRS, queues, tenancy and observability, each usable on its own. Five tiers with the dependency direction enforced by a build-time check, token-based DI with no decorator reflection, lifecycle as a real state machine, and 11 frontend adapters over the same contracts. Scriptune's API runs on it.
 
 <sub>TypeScript · Node.js 24 · pnpm workspaces · Zod · Vitest · ESM · MIT</sub><br/>
-<a href="https://zudojs.oyinlola.site" target="_blank" rel="noopener noreferrer">Documentation</a> · <a href="https://github.com/oyinlola-tech/zudo" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/zudojs" target="_blank" rel="noopener noreferrer">Case study</a>
+<a href="https://zudojs.oyinlola.site" target="_blank" rel="noopener noreferrer">Documentation</a> · <a href="https://github.com/oyinlola-tech/zudo" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/zudojs" target="_blank" rel="noopener noreferrer">Case study</a>
 
 <br/>
 
@@ -54,7 +56,7 @@ A modular TypeScript framework I wrote and now build on: 39 packages on npm for 
 A virtual football platform where every match is simulated once and seen identically on web, mobile, TV, a shop terminal and the admin console. Twelve TypeScript and Python services, and each one that stores data can write only its own PostgreSQL schema. Betting closes before the match is played, the seed is an HMAC under a server secret, and database triggers refuse any edit to a result. Money is integer kobo from the database to the screen, and it is play money only.
 
 <sub>TypeScript · Zudojs · Prisma · Python · FastAPI · PostgreSQL · Redis · React 19 · Expo · Playwright</sub><br/>
-<a href="https://github.com/oyinlola-tech/BetNg" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/betng" target="_blank" rel="noopener noreferrer">Case study</a>
+<a href="https://github.com/oyinlola-tech/BetNg" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/betng" target="_blank" rel="noopener noreferrer">Case study</a>
 
 <br/>
 
@@ -72,7 +74,7 @@ Checks whether the documents you attach support the claim you are making. Rule c
 Community-reported electricity status for Nigerian neighbourhoods. Neighbours report power on or off in one tap, and the status follows the majority of distinct people who reported in the last 30 minutes, so one wrong report cannot flip it. An Expo app for Android and iPhone, a Fastify API over a six-level location hierarchy, push alerts when the status changes, and a landing page. It began as the backend of an Orange internship team project.
 
 <sub>TypeScript · Fastify 5 · Prisma 7 · MySQL · Expo · React Native · MapLibre · React 19 · Vite</sub><br/>
-<a href="https://powerwatch-one.vercel.app" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/PowerWatch" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/powerwatch" target="_blank" rel="noopener noreferrer">Case study</a>
+<a href="https://powerwatch-one.vercel.app" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/PowerWatch" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/powerwatch" target="_blank" rel="noopener noreferrer">Case study</a>
 
 <br/>
 
@@ -94,37 +96,37 @@ A Git commit provenance and contribution policy engine. Independent detectors re
 
 <br/>
 
-<a href="https://oyinlola1.vercel.app/work/kolo" target="_blank" rel="noopener noreferrer"><img src="assets/project-kolo.svg" width="100%" alt="Kolo: 32 Prisma repositories, 18 controllers, 14 background queues, 3 role dashboards" /></a>
+<a href="https://www.oyinlola.site/work/kolo" target="_blank" rel="noopener noreferrer"><img src="assets/project-kolo.svg" width="100%" alt="Kolo: 32 Prisma repositories, 18 controllers, 14 background queues, 3 role dashboards" /></a>
 
 Digital infrastructure for Ajo and Esusu cooperative savings groups. A double-entry ledger from the first commit, HMAC-verified Nomba webhooks that are re-verified out of band before any wallet is credited, one database transaction per settlement, and 14 BullMQ queues keeping payouts and reminders off the request path.
 
 <sub>TypeScript · Fastify 5 · Prisma · PostgreSQL · Redis · BullMQ · React 19 · Nomba · Argon2</sub><br/>
-<a href="https://github.com/oyinlola-tech/kolo-nomba" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/kolo" target="_blank" rel="noopener noreferrer">Case study</a>
+<a href="https://github.com/oyinlola-tech/kolo-nomba" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/kolo" target="_blank" rel="noopener noreferrer">Case study</a>
 
 <br/>
 
-## More production work
+## More projects
 
 Every number below was counted in the repository, not estimated. Projects whose repositories are private carry a case study instead of a source link.
 
 | Project | What it is | Counted in the repository |
 | --- | --- | --- |
 | **Scriptune**<br/><sub><a href="https://github.com/oyinlola-tech/scriptune" target="_blank" rel="noopener noreferrer">Source</a></sub> | Recognition for the Bible and Christian hymns: a Zudojs API, a Next.js web app, an Expo app and a local Whisper transcriber<br/><sub>TypeScript · Zudojs · PostgreSQL · Redis · Next.js · Expo · Whisper</sub> | 27 Prisma models · 1,200 hymns · 3 apps |
-| **Utils-tool**<br/><sub><a href="https://tools.oyinlola.site" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/utils-tools" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/utils-tool" target="_blank" rel="noopener noreferrer">Case study</a></sub> | 28 image, PDF, file and developer tools that run fully local or serverless, with no database and no accounts<br/><sub>Python · FastAPI · Pillow · pikepdf · Ghostscript · rembg</sub> | 28 tools · 2 runtime environments |
-| **AgentLab**<br/><sub><a href="https://oyinlola1.vercel.app/work/agentlab" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Runs AI agents across browser, sandbox and desktop behind one interface, each with an offline mock, scored on five weighted dimensions<br/><sub>TypeScript · Node.js · Solari SDK · Gemini · Groq</sub> | 3 execution environments · 5 scoring dimensions |
-| **Telente CBT**<br/><sub><a href="https://oyinlola1.vercel.app/work/telente-cbt" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Multi-tenant computer-based testing platform with a service-key-isolated Python AI service for question generation<br/><sub>TypeScript · Fastify · Prisma · PostgreSQL 16 · Redis · FastAPI</sub> | 47 Prisma models · 4 question types |
-| **Telente Store**<br/><sub><a href="https://github.com/oyinlola-tech/Newdich-store" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/telente-store" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Modular-monolith commerce platform: storefront, admin and API in one process<br/><sub>TypeScript 5.9 · Fastify 5 · Prisma · MySQL · Paystack</sub> | 24 hexagonal modules · 150+ routes · 31 models |
-| **Zudo POS**<br/><sub><a href="https://github.com/oyinlola-tech/Zudo-POS" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/zudo-pos" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Multi-tenant point of sale with shifts, suppliers, purchase orders, loyalty and crypto settlement<br/><sub>TypeScript · Fastify · Prisma · libSQL</sub> | 27 route modules · 19 models · 4 role portals |
-| **LearnBridge**<br/><sub><a href="https://github.com/oyinlola-tech/LMS" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/learnbridge" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Full LMS with four workspaces, realtime channels, Paystack billing and verifiable certificates<br/><sub>TypeScript · Fastify · Prisma · PostgreSQL · Redis</sub> | 4 workspaces · 3 realtime channel types |
-| **Eko Xpedite Exchange**<br/><sub><a href="https://oyinlola1.vercel.app/work/eko-xpedite" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Exchange and settlement backend with the Newdich team: merchant, agent and end-user flows<br/><sub>Node.js · TypeScript · PostgreSQL · Docker</sub> | 3 actor models · team codebase |
-| **IKALE**<br/><sub><a href="https://oyinlola1.vercel.app/work/ikale" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Community membership backend built around account recovery that never reveals whether an account exists<br/><sub>TypeScript · Fastify · Prisma · PostgreSQL · Zod</sub> | 357 commits · OTPs hashed at rest |
-| **CH-RTV**<br/><sub><a href="https://github.com/oyinlola-tech/chrtv" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/ch-rtv" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Carrier haulage visibility: a TCP gateway speaking the COBAN tracker protocol, geofencing and CMA-CGM integration<br/><sub>Node.js · MySQL · TCP sockets · JWT · Swagger</sub> | 5 internal services · 16 route modules |
-| **Aisle Commerce**<br/><sub><a href="https://github.com/oyinlola-tech/e-commmerce-saas" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/aisle-commerce" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Multi-tenant storefront SaaS: twelve bounded-context services behind a gateway that signs every internal request<br/><sub>Node.js · Express · MySQL · Redis · RabbitMQ · HMAC</sub> | 12 domain services · 8 domain events |
-| **Gly VTU**<br/><sub><a href="https://github.com/oyinlola-tech/gly-vtu" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/gly-vtu" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Wallet and bill payments: transfers, airtime and bills through VTpass, Flutterwave virtual cards, KYC tiers<br/><sub>TypeScript · Node.js · Flutterwave · VTpass</sub> | 25 route modules · 69 pages |
-| **MedExplain AI**<br/><sub><a href="https://github.com/oyinlola-tech/health-ai" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/medexplain-ai" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Explains medical reports with Gemini grounded in MedlinePlus and PubMed, then routes to verified doctors<br/><sub>JavaScript · Node.js · Gemini</sub> | 20 service modules · 22 migrations · RAG |
-| **Rivvo**<br/><sub><a href="https://github.com/oyinlola-tech/rivvo" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/rivvo" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Messaging and calling platform: direct and group chat, WebRTC voice and video, group key rotation, moderation<br/><sub>React 18 · Express · MySQL · Socket.IO · WebRTC</sub> | 17 route groups · 21 pages |
+| **Utils-tool**<br/><sub><a href="https://tools.oyinlola.site" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/utils-tools" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/utils-tool" target="_blank" rel="noopener noreferrer">Case study</a></sub> | 28 image, PDF, file and developer tools that run fully local or serverless, with no database and no accounts<br/><sub>Python · FastAPI · Pillow · pikepdf · Ghostscript · rembg</sub> | 28 tools · 2 runtime environments |
+| **AgentLab**<br/><sub><a href="https://www.oyinlola.site/work/agentlab" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Runs AI agents across browser, sandbox and desktop behind one interface, each with an offline mock, scored on five weighted dimensions<br/><sub>TypeScript · Node.js · Solari SDK · Gemini · Groq</sub> | 3 execution environments · 5 scoring dimensions |
+| **Telente CBT**<br/><sub><a href="https://www.oyinlola.site/work/telente-cbt" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Multi-tenant computer-based testing platform with a service-key-isolated Python AI service for question generation<br/><sub>TypeScript · Fastify · Prisma · PostgreSQL 16 · Redis · FastAPI</sub> | 47 Prisma models · 4 question types |
+| **Telente Store**<br/><sub><a href="https://github.com/oyinlola-tech/Newdich-store" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/telente-store" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Modular-monolith commerce platform: storefront, admin and API in one process<br/><sub>TypeScript 5.9 · Fastify 5 · Prisma · MySQL · Paystack</sub> | 24 hexagonal modules · 150+ routes · 31 models |
+| **Zudo POS**<br/><sub><a href="https://github.com/oyinlola-tech/Zudo-POS" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/zudo-pos" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Multi-tenant point of sale with shifts, suppliers, purchase orders, loyalty and crypto settlement<br/><sub>TypeScript · Fastify · Prisma · libSQL</sub> | 27 route modules · 19 models · 4 role portals |
+| **LearnBridge**<br/><sub><a href="https://github.com/oyinlola-tech/LMS" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/learnbridge" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Full LMS with four workspaces, realtime channels, Paystack billing and verifiable certificates<br/><sub>TypeScript · Fastify · Prisma · PostgreSQL · Redis</sub> | 4 workspaces · 3 realtime channel types |
+| **Eko Xpedite Exchange**<br/><sub>Project experience with Newdich Technology</sub> | Exchange and settlement backend with the Newdich team: merchant, agent and end-user flows<br/><sub>Node.js · TypeScript · PostgreSQL · Docker</sub> | 3 actor models · team codebase |
+| **IKALE**<br/><sub><a href="https://www.oyinlola.site/work/ikale" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Community membership backend built around account recovery that never reveals whether an account exists<br/><sub>TypeScript · Fastify · Prisma · PostgreSQL · Zod</sub> | 357 commits · OTPs hashed at rest |
+| **CH-RTV**<br/><sub><a href="https://github.com/oyinlola-tech/chrtv" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/ch-rtv" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Carrier haulage visibility: a TCP gateway speaking the COBAN tracker protocol, geofencing and CMA-CGM integration<br/><sub>Node.js · MySQL · TCP sockets · JWT · Swagger</sub> | 5 internal services · 16 route modules |
+| **Aisle Commerce**<br/><sub><a href="https://github.com/oyinlola-tech/e-commmerce-saas" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/aisle-commerce" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Multi-tenant storefront SaaS: twelve bounded-context services behind a gateway that signs every internal request<br/><sub>Node.js · Express · MySQL · Redis · RabbitMQ · HMAC</sub> | 12 domain services · 8 domain events |
+| **Gly VTU**<br/><sub><a href="https://github.com/oyinlola-tech/gly-vtu" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/gly-vtu" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Wallet and bill payments: transfers, airtime and bills through VTpass, Flutterwave virtual cards, KYC tiers<br/><sub>TypeScript · Node.js · Flutterwave · VTpass</sub> | 25 route modules · 69 pages |
+| **MedExplain AI**<br/><sub><a href="https://github.com/oyinlola-tech/health-ai" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/medexplain-ai" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Explains medical reports with Gemini grounded in MedlinePlus and PubMed, then routes to verified doctors<br/><sub>JavaScript · Node.js · Gemini</sub> | 20 service modules · 22 migrations · RAG |
+| **Rivvo**<br/><sub><a href="https://github.com/oyinlola-tech/rivvo" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/rivvo" target="_blank" rel="noopener noreferrer">Case study</a></sub> | Messaging and calling platform: direct and group chat, WebRTC voice and video, group key rotation, moderation<br/><sub>React 18 · Express · MySQL · Socket.IO · WebRTC</sub> | 17 route groups · 21 pages |
 
-All 31 case studies, including Telente Technologies, Telente Logistics, Telente School Management and Glossy Store, are on the <a href="https://oyinlola1.vercel.app/work" target="_blank" rel="noopener noreferrer">work index</a>.
+All 31 case studies, including Telente Technologies, Telente Logistics, Telente School Management and Glossy Store, are on the <a href="https://www.oyinlola.site/work" target="_blank" rel="noopener noreferrer">work index</a>.
 
 <details>
 <summary><b>Earlier and smaller repositories</b></summary>
@@ -132,17 +134,17 @@ All 31 case studies, including Telente Technologies, Telente Logistics, Telente 
 
 | Repository | What it is | Links |
 | --- | --- | --- |
-| `revive-root-essentials` | Storefront and back office for a wellness brand with Flutterwave payments | <a href="https://github.com/oyinlola-tech/revive-root-essentials" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/revive-roots" target="_blank" rel="noopener noreferrer">Case study</a> |
-| `oauth` | Authenticator Lab: a layered TOTP enrolment flow that verifies before it persists a secret | <a href="https://github.com/oyinlola-tech/oauth" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/authenticator-lab" target="_blank" rel="noopener noreferrer">Case study</a> |
-| `solari-cookbook` | Nine runnable SDK examples for cloud browsers, sandboxes and desktops | <a href="https://github.com/solari-sdk/solari-cookbook" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://oyinlola1.vercel.app/work/solari-cookbook" target="_blank" rel="noopener noreferrer">Case study</a> |
+| `revive-root-essentials` | Storefront and back office for a wellness brand with Flutterwave payments | <a href="https://github.com/oyinlola-tech/revive-root-essentials" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/revive-roots" target="_blank" rel="noopener noreferrer">Case study</a> |
+| `oauth` | Authenticator Lab: a layered TOTP enrolment flow that verifies before it persists a secret | <a href="https://github.com/oyinlola-tech/oauth" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/authenticator-lab" target="_blank" rel="noopener noreferrer">Case study</a> |
+| `solari-cookbook` | Nine runnable SDK examples for cloud browsers, sandboxes and desktops | <a href="https://github.com/solari-sdk/solari-cookbook" target="_blank" rel="noopener noreferrer">Source</a> · <a href="https://www.oyinlola.site/work/solari-cookbook" target="_blank" rel="noopener noreferrer">Case study</a> |
 | `aunty` | Soft Beans Palace: ordering for a Port Harcourt food business that hands checkout to WhatsApp | <a href="https://soft-beans.vercel.app" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/aunty" target="_blank" rel="noopener noreferrer">Source</a> |
 | `newdich` | Thirty-page corporate site generated by Python, with no framework and no npm | <a href="https://newdich.vercel.app" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/newdich" target="_blank" rel="noopener noreferrer">Source</a> |
 | `cms` | Church management system for a parish in Okitipupa: public site plus an RBAC admin over Express and MySQL | <a href="https://github.com/oyinlola-tech/cms" target="_blank" rel="noopener noreferrer">Source</a> |
 | `Telente-logistic-Webapp` | Logistics booking and tracking web app | <a href="https://telente-logistic-webapp.vercel.app" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/Telente-logistic-Webapp" target="_blank" rel="noopener noreferrer">Source</a> |
 | `BrightLearn` | Learning platform front end for a tutoring brand | <a href="https://brightlearn-ten.vercel.app" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/BrightLearn" target="_blank" rel="noopener noreferrer">Source</a> |
 | `telente-chamber` | Law-firm practice management prototype, my first real product build | <a href="https://github.com/oyinlola-tech/telente-chamber" target="_blank" rel="noopener noreferrer">Source</a> |
-| `oyinlola` | The source of the portfolio: Next.js, an interactive shell, a procedural WebGL hero, a printable CV | <a href="https://oyinlola1.vercel.app" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/oyinlola" target="_blank" rel="noopener noreferrer">Source</a> |
-| `portfolio.io` | The hand-coded portfolio the current site replaced | <a href="https://portfolio-io-ashen.vercel.app" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/portfolio.io" target="_blank" rel="noopener noreferrer">Source</a> |
+| `oyinlola` | The source of the portfolio: Next.js, an interactive shell, a procedural WebGL hero, a printable CV | <a href="https://www.oyinlola.site" target="_blank" rel="noopener noreferrer">Live</a> · <a href="https://github.com/oyinlola-tech/oyinlola" target="_blank" rel="noopener noreferrer">Source</a> |
+| `portfolio.io` | The hand-coded portfolio the current site replaced | <a href="https://github.com/oyinlola-tech/portfolio.io" target="_blank" rel="noopener noreferrer">Source</a> |
 
 </details>
 
@@ -154,11 +156,13 @@ All 31 case studies, including Telente Technologies, Telente Logistics, Telente 
 
 Zudojs sits first in the backend row because I wrote it and build on it.
 
-<img src="assets/stack.svg" width="100%" alt="Languages: Go, Python, TypeScript, JavaScript, Bash. Backend: Zudojs, Node.js, Fastify, Express, FastAPI, Gin, Kafka, RabbitMQ. Data: PostgreSQL, MySQL, MariaDB, Redis, SQLite, Prisma, Sequelize, Zod. Infrastructure: Linux, Kali, Docker, Kubernetes, Terraform, Nginx, Traefik, GitHub Actions, Git. Frontend and tooling: React, Next.js, Tailwind, Three.js, Expo, Vite, Vitest, Postman, Swagger." />
+<img src="assets/stack.svg" width="100%" alt="Languages: Go, Kotlin, PHP, Python, Swift, TypeScript, JavaScript, Bash. Backend: Zudojs, Node.js, Fastify, Express, FastAPI, Gin, Kafka, RabbitMQ. Data: PostgreSQL, MySQL, MariaDB, Redis, SQLite, Prisma, Sequelize, Zod. Infrastructure: Linux, Kali, Docker, Kubernetes, Terraform, Nginx, Traefik, GitHub Actions, Git. Frontend and mobile: React, Next.js, React Native, Expo, Kotlin, Swift, Tailwind, Three.js, Vite, Vitest, Postman, Swagger." />
 
 | Layer | What I reach for |
 | --- | --- |
 | Backend | Go with chi and Gin · Zudojs, Fastify 5 and Express on Node.js · FastAPI · REST and gRPC · OpenAPI and Swagger |
+| Languages | Go · Kotlin · PHP · Python · Swift · TypeScript · JavaScript · SQL · Bash |
+| Full-stack & mobile | React · Next.js · React Native · Expo · Kotlin · Swift · Tailwind CSS |
 | Data access | ent + Atlas · sqlc and pgx · Prisma · Sequelize · PostgreSQL, MariaDB, MySQL, Redis, SQLite and libSQL |
 | Architecture | Modular monolith · Microservices · Event-driven and CQRS · Hexagonal ports and adapters · DI containers · Multi-tenancy |
 | Data engineering | Python pipelines · Event processing · Ranking and recommendation · Vector search · Analytics |
@@ -167,11 +171,11 @@ Zudojs sits first in the backend row because I wrote it and build on it.
 
 <br/>
 
-## How I structure a backend
+## Nantty's product architecture
 
-The shape most of my systems take, drawn from ZudoMart. One deployable with real internal seams, a Python service where the models live, and an event spine so a domain can be extracted as a build change rather than a rewrite.
+Nantty is a multi-app product in development. Its local workspace separates client apps and service responsibilities, with a local backend mode for integration work. Cloud deployment has not happened; the AWS Terraform remains a plan.
 
-<img src="assets/architecture.svg" width="100%" alt="Web and mobile clients reach a Go modular monolith of 79 modules through a Traefik edge. An HTTP layer on chi feeds four domains: commerce with 26 modules, social with 14, creator with 5 and platform with 20. A trust engine for escrow, three-tier verification and risk scoring cuts across them, and all four depend on a 14-module core. State lives in PostgreSQL through ent and Atlas, and in Redis. Domain events travel a Kafka spine to a Python FastAPI service for ranking, recommendation, moderation, fraud detection and forecasting, which sends scores back." />
+<img src="assets/architecture.svg" width="100%" alt="Overview of Nantty's pre-launch workspace: seven product apps, six Go deployables, five TypeScript services, Phoenix realtime and Python intelligence, with PostgreSQL and RabbitMQ in the local development infrastructure. AWS deployment is planned but unapplied." />
 
 <br/>
 
@@ -192,7 +196,7 @@ The shape most of my systems take, drawn from ZudoMart. One deployable with real
 
 ## Journey
 
-<img src="assets/journey.svg" width="100%" alt="2023: founded ZudoMart and started the backend that became a 79-module Go monolith. 2025: joined Newdich Technology as a Backend Engineer on Eko Xpedite Exchange. January 2026: ZudoMart joined FasterCapital's EquityPilot programme. 2026: shipped Zudojs, Kolo, PowerWatch, Telente CBT, Telente Store, Utils-tool, LearnBridge and Zudo POS. Now: BetNG, ProofLens, SentinelX and CommitGuard, alongside a BSc in Computer Science." />
+<img src="assets/journey.svg" width="100%" alt="Engineering work across Newdich Technology, the open-source Zudojs framework, 31 portfolio case studies, and Nantty, a social marketplace in pre-launch development." />
 
 <br/>
 
@@ -222,7 +226,7 @@ I am open to backend, platform and software engineering roles, and to conversati
 
 <div align="center">
 
-<a href="mailto:oluwayemioyinlola2@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email" /></a>&nbsp;<a href="https://oyinlola1.vercel.app/contact" target="_blank" rel="noopener noreferrer"><img src="assets/btn-contact.svg" height="40" alt="Contact form" /></a>&nbsp;<a href="https://www.linkedin.com/in/oluwayemioyinlola" target="_blank" rel="noopener noreferrer"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;<a href="https://github.com/oyinlola-tech" target="_blank" rel="noopener noreferrer"><img src="assets/btn-github.svg" height="40" alt="GitHub" /></a>&nbsp;<a href="https://oyinlola1.vercel.app" target="_blank" rel="noopener noreferrer"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio" /></a>
+<a href="mailto:oluwayemioyinlola2@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email" /></a>&nbsp;<a href="https://www.oyinlola.site/contact" target="_blank" rel="noopener noreferrer"><img src="assets/btn-contact.svg" height="40" alt="Contact form" /></a>&nbsp;<a href="https://www.linkedin.com/in/oluwayemioyinlola" target="_blank" rel="noopener noreferrer"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;<a href="https://github.com/oyinlola-tech" target="_blank" rel="noopener noreferrer"><img src="assets/btn-github.svg" height="40" alt="GitHub" /></a>&nbsp;<a href="https://www.oyinlola.site" target="_blank" rel="noopener noreferrer"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio" /></a>
 
 <br/><br/>
 
