@@ -4,7 +4,7 @@
 
 <br/>
 
-<a href="https://oyinlola1.vercel.app" target="_blank" rel="noopener noreferrer"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio" /></a>&nbsp;<a href="https://oyinlola1.vercel.app/cv" target="_blank" rel="noopener noreferrer"><img src="assets/btn-cv.svg" height="40" alt="Read the CV" /></a>&nbsp;<a href="mailto:oluwayemioyinlola2@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email" /></a>&nbsp;<a href="https://www.linkedin.com/in/oluwayemioyinlola" target="_blank" rel="noopener noreferrer"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;<a href="https://x.com/oyinlola141" target="_blank" rel="noopener noreferrer"><img src="assets/btn-x.svg" height="40" alt="X" /></a>
+<a href="https://oyinlola1.vercel.app" target="_blank" rel="noopener noreferrer"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio" /></a>&nbsp;<a href="https://oyinlola.site/cv" target="_blank" rel="noopener noreferrer"><img src="assets/btn-cv.svg" height="40" alt="Read the CV" /></a>&nbsp;<a href="mailto:oluwayemioyinlola2@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email" /></a>&nbsp;<a href="https://www.linkedin.com/in/oluwayemioyinlola" target="_blank" rel="noopener noreferrer"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn" /></a>&nbsp;<a href="https://x.com/oyinlola141" target="_blank" rel="noopener noreferrer"><img src="assets/btn-x.svg" height="40" alt="X" /></a>
 
 </div>
 
